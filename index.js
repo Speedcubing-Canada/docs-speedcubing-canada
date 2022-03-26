@@ -1,24 +1,15 @@
 const markdownpdf = require("markdown-pdf");
 
-const documents = [
-  {
-    type: "public",
-    documents: ["by-laws"],
-  },
-  {
-    type: "internal",
-    documents: [],
-  },
-];
+const type = process.argv[2];
+const file = process.argv[3];
 
-documents.forEach(({ type, documents }) => {
-  const fromPaths = documents.map((d) => `./${type}/src/${d}.md`);
-  const toPaths = documents.map((d) => `./${type}/pdf/${d}.pdf`);
-  markdownpdf({
-    remarkable: {
-      html: true,
-    },
-  })
-    .from(fromPaths)
-    .to(toPaths);
-});
+const fromPath = `./${type}/src/${file}.md`;
+const toPath = `./${type}/pdf/${file}.pdf`;
+
+markdownpdf({
+  remarkable: {
+    html: true,
+  },
+})
+  .from(fromPath)
+  .to(toPath);
