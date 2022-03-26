@@ -165,7 +165,7 @@ In the event that the chair of the board and the vice-chair of the board are abs
 
 A quorum at any meeting of the members (unless a greater number of members are required to be present by the Act) shall be a majority of the members entitled to vote at the meeting. If a quorum is present at the opening of a meeting of members, the members present may proceed with the business of the meeting even if a quorum is not present throughout the meeting.
 
-# 23. Voting at Members' Meetings
+## 23. Voting at Members' Meetings
 
 At any meeting of members every question shall, unless otherwise provided by the articles or by-laws or by the Act, be determined by a majority of the votes cast on the questions. In case of an equality of votes either on a show of hands or on a ballot or on the results of electronic voting, the chair of the meeting in addition to an original vote shall have a second or casting vote.
 
