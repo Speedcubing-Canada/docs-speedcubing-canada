@@ -3,8 +3,8 @@
    ol ol { list-style-type: upper-alpha; }
 </style>
 
-Version: 1.0
-Updated: February 26, 2022
+Version: 1.1
+Updated: April 9, 2022
 
 A by-law relating generally to the conduct of the affairs of **Speedcubing Canada** (the "Corporation") **BE IT ENACTED** as a by-law of the Corporation as follows:
 
@@ -38,7 +38,7 @@ In the interpretation of this by-law, words in the singular include the plural a
 
 ## 3. Execution of Documents
 
-Deeds, transfers, assignments, contracts, obligations and other instruments in writing requiring execution by the Corporation may be signed by any two (2) of its officers or directors. In addition, the board may from time to time direct the manner in which and the person or persons by whom a particular document or type of document shall be executed. Any person authorized to sign any document may affix the corporate seal (if any) to the document. Any signing officer may certify a copy of any instrument, resolution, by-law or other document of the Corporation to be a true copy thereof.
+Deeds, transfers, assignments, contracts, obligations and other instruments in writing requiring execution by the Corporation may be signed by any one (1) of its officers or directors. In addition, the board may from time to time direct the manner in which and the person or persons by whom a particular document or type of document shall be executed. Any person authorized to sign any document may affix the corporate seal (if any) to the document. Any signing officer may certify a copy of any instrument, resolution, by-law or other document of the Corporation to be a true copy thereof.
 
 ## 4. Financial Year End
 
