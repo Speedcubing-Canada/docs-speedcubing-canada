@@ -1,3 +1,7 @@
+<style type="text/css">
+  a[href]:after { content : "" }
+</style>
+
 # First Directors' Meeting - Speedcubing Canada
 
 Date: February 26, 2022
@@ -36,5 +40,5 @@ Location: Electronic meeting via Google Workspace
 
 ## Other business and action items
 
-- Abdullah Gulab to prepare the application form to make Speedcubing Canada an official Regional Organization of the [World Cube Association](https://www.worldcubeassociation.org/)
+- Abdullah Gulab to prepare the application form to make Speedcubing Canada an official Regional Organization of the [World Cube Association](https://www.worldcubeassociation.org)
 - Jonathan Esparaz to commission a logo for Speedcubing Canada since a logo is required for the aforementioned Regional Organization application
