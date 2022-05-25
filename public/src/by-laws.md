@@ -3,8 +3,8 @@
    ol ol { list-style-type: upper-alpha; }
 </style>
 
-Version: 1.1
-Updated: April 9, 2022
+Version: 1.2
+Updated: May 25, 2022
 
 A by-law relating generally to the conduct of the affairs of **Speedcubing Canada** (the "Corporation") **BE IT ENACTED** as a by-law of the Corporation as follows:
 
@@ -218,6 +218,8 @@ Unless otherwise specified by the board (which may, subject to the Act modify, r
 - **President** – If appointed, the president shall be the chief executive officer of the Corporation and shall be responsible for implementing the strategic plans and policies of the Corporation. The president shall, subject to the authority of the board, have general supervision of the affairs of the Corporation.
 - **Secretary** – If appointed, the secretary shall attend and be the secretary of all meetings of the board, members and committees of the board. The secretary shall enter or cause to be entered in the Corporation's minute book, minutes of all proceedings at such meetings; the secretary shall give, or cause to be given, as and when instructed, notices to members, directors, the public accountant and members of committees; the secretary shall be the custodian of all books, papers, records, documents and other instruments belonging to the Corporation.
 - **Treasurer** – If appointed, the treasurer shall have such powers and duties as the board may specify.
+- **Communications Coordinator** - If appointed, a communications coordinator will manage and oversee the social media accounts of and public relations for the Corporation. There may be more than one communications coordinator appointed.
+- **Events Coordinator** - If appointed, an events coordinator may manage events, virtual and in-person, run by the Corporation. There may be more than one events coordinator appointed.
 
 ## 35. Officer Vacancies
 
