@@ -14,4 +14,4 @@ Votes were collected via Google Forms, which requires each Member to sign-in usi
 
 ## Speedcubing Canada By-Laws v1.1 Confirmation
 
-- The Members vote to confirm the [v1.1 of the Speedcubing Canada By-Laws](https://www.speedcubingcanada.org/documents/by-laws-v1.1.pdf) with the following vote totals: 5 yes, 0 no, 0 abstain.
+- The Members vote to confirm [v1.1 of the Speedcubing Canada By-Laws](https://www.speedcubingcanada.org/documents/by-laws-v1.1.pdf) with the following vote totals: 5 yes, 0 no, 0 abstain.
