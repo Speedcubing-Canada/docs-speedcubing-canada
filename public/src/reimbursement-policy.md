@@ -124,6 +124,7 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
     - Street cars
     - Taxis
     - Ride-Share (e.g. Uber, Lyft)
+  - Paid parking at public or private lots
 
 ### Lodging
 
