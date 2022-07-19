@@ -15,7 +15,7 @@ Whenever feasible, Speedcubing Canada _should_ transact directly with venues, ve
 
 Individual(s) and/or group(s) **must not** expect reimbursement from Speedcubing Canada, even if the expense is covered by the policies described in this document. If individual(s) and/or group(s) are planning to request reimbursement for allowed expenses, they _should_ discuss the expense with Speedcubing Canada’s Board of Directors prior to making any out-of-pocket payment(s).
 
-Speedcubing Canada’s Board of Directors reserves the right to modify this document (including the additional or removal of allowed expenses) with a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
+Speedcubing Canada’s Board of Directors reserves the right to modify this document (including the addition or removal of allowed expenses) with a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
 
 ## Allowed Expenses
 
