@@ -49,43 +49,57 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 - Reimbursement requests are allowed to be made for equipment used for a Speedcubing Canada Supported Event.
 
-#### Type 1
+#### Type 1: timing equipment
 
-- Equipment used during scrambling and solving in an official World Cube Association competition.
 - Expenses covered by this policy include:
   - StackMat timers
   - StackMat mats
   - Tournament displays
   - Tournament display data cords
+  - Tournament display power adaptors
   - Tournament display stands
   - Stopwatches
-  - Batteries
-  - O-rings
-  - Cube covers
-  - Stationary (e.g. pens, markers)
-  - Tri-folds
-  - Laptops and tablets (only if necessary for scrambling stations)
-  - Harmonica holders (only if necessary for 4x4x4 Blindfolded, 5x5x5 Blindfolded or 3x3x3 Multi-Blind)
-  - Cardstock and paper (e.g. for scorecards, FMC, 3x3x3 Blindfolded, 4x4x4 Blindfolded, 5x5x5 Blindfolded or 3x3x3 Multi-Blind)
+  - O-rings and other button protectors
 
-#### Type 2
+#### Type 2: non-timing equipment
 
-- Equipment not used during scrambling and solving in an official World Cube Association competition, but still necessary for the successful operation of a Speedcubing Canada Supported Event.
 - Expenses covered by this policy include:
-  - Name badges
-  - Lanyards
-  - Notepads
-  - Table cloths
-  - Professional printing (e.g. programs, banners, table runners, stickers)
-  - Cardstock and paper (e.g. for name tags, schedules or certificates)
+  - Cube covers
+  - Tri-folds
+  - Blind blockers and harmonica holders
+  - Laptops, tablets and required accessories (e.g. dongles, power adaptors)
+  - Extension cords and power bars
+  - Batteries
+
+#### Type 3: printing and paper
+
+- Expenses covered by this policy include:
+  - Cardstock and paper
+  - Professional printing (e.g. banners, table cloths, table runners, print programmes, signs, stickers, name badges)
+  - Printing services (e.g. in-store printing solutions)
   - Non-professional printing (e.g. printers, printer ink, printer toner)
-  - Competition staff apparel (only if necessary to identify competition staff)
+
+#### Type 4: office supplies and tools
+
+- Expenses covered by this policy include:
+  - Notepads
+  - Stationary (e.g. pens, markers, highlighters, binder clips, clipboards, labels, tape, white-out)
+  - Storage devices (e.g. baskets, bins, boxes, pencil cases)
+  - Tools (e.g. screwdrivers, scissors, box cutters)
+
+#### Type 5: health and safety
+
+- Expenses covered by this policy include:
   - Personal protective equipment (e.g. medical masks, gloves)
   - Cleaning/sanitary products (e.g. wipes, hand sanitizer, cling wrap)
-  - Stationary (e.g. pens, markers, highlighters, binder clips, clipboards, labels, tape, white-out)
-  - Storage (e.g. baskets, bins, boxes, pencil cases)
-  - Tools (e.g. screwdrivers, scissors, box cutters)
-  - Extension cords and power bars
+
+#### Type 6: other
+
+- Expenses covered by this policy include:
+  - Name badge holders
+  - Lanyards
+  - Competition apparel
+  - Table cloths
   - Materials for unofficial events (written explanation **must** be provided)
 
 ### Prizes
