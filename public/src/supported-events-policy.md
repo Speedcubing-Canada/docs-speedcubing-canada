@@ -11,17 +11,17 @@ Uses of the words “must”, “must not”, “should”, “should not” and
 
 All dollar amounts discussed are in Canadian dollars.
 
-Speedcubing Canada’s Board of Directors reserves the right tomodify this document with a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
+Speedcubing Canada’s Board of Directors reserves the right to modify this document if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
 
 A Speedcubing Canada Supported Event is an event, usually an official World Cube Association (WCA) competition in Canada, that is organized by or in partnership with Speedcubing Canada under the following conditions:
 
 ## Recognition Process
 
 - Written notice from Speedcubing Canada’s Board of Directors **must** be obtained to officially recognize a Speedcubing Canada Supported Event.
-- Individuals seeking to run a Speedcubing Canada Supported Event **must** email [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org) to request that their event be recognized as a Speedcubing Canada Supported Event.
+- Individual(s) and/or group(s) seeking to run a Speedcubing Canada Supported Event **must** email [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org) to request that their event be recognized as a Speedcubing Canada Supported Event.
   - The email **must** include a detailed, itemized budget for the event, including all expenses and sources of income.
-    - The budget _should_ be balanced and _should_ include a not insignificant margin to account for unexpected costs and circumstances.
-  - If the email request is made by a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event unless a Director raises on objection within 72 hours of the request.
+    - The budget _should_ be balanced and _should_ include a margin of at least 10% to account for unexpected costs and circumstances.
+  - If the email request is made by a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event unless a Director raises an objection within 72 hours of the request.
     - If an objection is raised by a Director, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
   - If the email request is made by individual(s) and/or group(s) who are not a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
 
@@ -44,5 +44,5 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
 
 ## Other
 
-- Speedcubing Canada’s Board of Directors reserves the right to reject recognition of an event as a Speedcubing Canada Supported Event.
-- Speedcubing Canada’s Board of Directors reserves the right to ban specific individual(s) and/or group(s) who do not comply with Speedcubing Canada’s By-Laws and/or Policies from running Speedcubing Canada Supported Events for a fixed period of time or indefinitely.
+- Speedcubing Canada’s Board of Directors reserves the right to reject or revoke recognition of an event as a Speedcubing Canada Supported Event.
+- Speedcubing Canada’s Board of Directors reserves the right to ban specific individual(s) and/or group(s) who do not comply with [Speedcubing Canada’s By-Laws](https://www.speedcubingcanada.org/documents/by-laws.pdf) and/or Policies from running Speedcubing Canada Supported Events for a fixed period of time or indefinitely.

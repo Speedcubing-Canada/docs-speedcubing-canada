@@ -13,7 +13,7 @@ All dollar amounts discussed are in Canadian dollars.
 
 Whenever feasible, Speedcubing Canada _should_ transact directly with venues, vendors, merchants and service providers to avoid the need to reimburse individual(s) and/or group(s). When reimbursement is necessary, this policy describes allowed expenses and the process for the submission, approval and payment of approved reimbursements.
 
-Individual(s) and/or group(s) **must not** expect reimbursement from Speedcubing Canada, even if the expense is covered by the policies described in this document. If individual(s) and/or group(s) are planning to request reimbursement for allowed expenses, they _should_ discuss the expense with Speedcubing Canada’s Board of Directors prior to making any out-of-pocket payment(s).
+Individual(s) and/or group(s) _should not_ expect reimbursement from Speedcubing Canada, even if the expense is covered by the policies described in this document. If individual(s) and/or group(s) are planning to request reimbursement for allowed expenses, they _should_ discuss the expense with Speedcubing Canada’s Board of Directors prior to making any out-of-pocket payment(s).
 
 Speedcubing Canada’s Board of Directors reserves the right to modify this document (including the addition or removal of allowed expenses) with a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
 
@@ -159,4 +159,4 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 - Approved reimbursements **must** be paid within 30 days of approval.
 - Approved reimbursements **must** be paid via cheque or e-transfer (including PayPal or other online money transfer services that produce an immutable record of the transaction).
 - Speedcubing Canada reserves the right to pay approved reimbursements of over $1,000 in multiple installments.
-  - A schedule of payment **must** be clearly communicated with the individual being reimbursed.
+  - A schedule of payment **must** be clearly communicated with the individual(s) and/or group(s) being reimbursed.
