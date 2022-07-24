@@ -3,7 +3,7 @@
 </style>
 
 Version: 1.0
-Updated: July 18, 2022
+Updated: July 24, 2022
 
 # Speedcubing Canada Supported Events Policy
 

@@ -3,7 +3,7 @@
 </style>
 
 Version: 1.1
-Updated: July 18, 2022
+Updated: July 24, 2022
 
 # Speedcubing Canada Reimbursement Policy
 
