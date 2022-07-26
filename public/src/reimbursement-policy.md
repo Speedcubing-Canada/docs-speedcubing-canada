@@ -3,7 +3,7 @@
 </style>
 
 Version: 1.1
-Updated: July 24, 2022
+Updated: July 25, 2022
 
 # Speedcubing Canada Reimbursement Policy
 
@@ -65,7 +65,7 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 - Expenses covered by this policy include:
   - Cube covers
-  - Tri-folds
+  - Scrambling station blockers (e.g. tri-folds, pipe and drape)
   - Blind blockers and harmonica holders
   - Laptops, tablets and required accessories (e.g. dongles, power adaptors)
   - Extension cords and power bars
@@ -84,7 +84,7 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 - Expenses covered by this policy include:
   - Notepads
   - Stationary (e.g. pens, markers, highlighters, binder clips, clipboards, labels, tape, white-out)
-  - Storage devices (e.g. baskets, bins, boxes, pencil cases)
+  - Storage devices (e.g. baskets, bins, boxes, pencil cases, suitcases)
   - Tools (e.g. screwdrivers, scissors, box cutters)
 
 #### Type 5: health and safety
