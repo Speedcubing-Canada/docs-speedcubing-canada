@@ -19,15 +19,15 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 ## Allowed Expenses
 
-- Speedcubing Canada **must** only reimburse expenses that are reasonable and necessary for running a Speedcubing Canada Supported Event as defined by the [Speedcubing Canada Supported Events Policy](https://www.speedcubingcanada.org/documents/supported-events-policy.pdf).
+- Speedcubing Canada **must** only reimburse expenses that are reasonable and necessary for running Speedcubing Canada Supported Events as defined by the [Speedcubing Canada Supported Events Policy](https://www.speedcubingcanada.org/documents/supported-events-policy.pdf).
   - Speedcubing Canada reserves the right to provide partial reimbursement of an allowed expense if deemed appropriate.
   - Speedcubing Canada reserves the right to deny unnecessary or unreasonable reimbursement requests.
 - Speedcubing Canada **must** only reimburse expenses as is allowed for Canadian not-for-profit corporations.
-- Speedcubing Canada **must** only reimburse Director(s), Officer(s), Member(s) or other individual(s) and/or group(s) who are operating as unpaid volunteers to run a Speedcubing Canada Supported Event.
+- Speedcubing Canada **must** only reimburse Director(s), Officer(s), Member(s) or other individual(s) and/or group(s) who are operating as unpaid volunteers to run Speedcubing Canada Supported Events.
 
 ### Venues and associated costs
 
-- Reimbursement requests are allowed to be made for venues used for a Speedcubing Canada Supported Event.
+- Reimbursement requests are allowed to be made for venues used for Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
   - Venue rental fees
   - Non-refundable damage deposits
@@ -41,13 +41,13 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 ### Operating expenses
 
-- Reimbursement requests are allowed to be made for operating expenses of a Speedcubing Canada Supported Event.
+- Reimbursement requests are allowed to be made for operating expenses of Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
   - World Cube Association Competition Dues
 
 ### Equipment
 
-- Reimbursement requests are allowed to be made for equipment used for a Speedcubing Canada Supported Event.
+- Reimbursement requests are allowed to be made for equipment used for Speedcubing Canada Supported Events.
 
 #### Type 1: timing equipment
 
@@ -104,7 +104,7 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 ### Prizes
 
-- Reimbursement requests are allowed to be made for prizes awarded to winners to other individuals at a Speedcubing Canada Supported Event.
+- Reimbursement requests are allowed to be made for prizes awarded to winners to other individuals at Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
   - Medals
   - Plaques
@@ -116,7 +116,7 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 ### Food and beverage
 
-- Reimbursement requests are allowed to be made for food and beverage served _free of charge_ to attendees or a sub-group of attendees at a Speedcubing Canada Supported Event.
+- Reimbursement requests are allowed to be made for food and beverage served _free of charge_ to attendees or a sub-group of attendees at Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
   - Food (e.g. catering, pizza, sandwiches)
   - Snacks (e.g. fruit, granola bars)
@@ -128,7 +128,7 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 ### Travel
 
-- Reimbursement requests are allowed to be made for travel, but **must** only be approved when deemed absolutely necessary for the successful operation of a Speedcubing Canada Supported Event.
+- Reimbursement requests are allowed to be made for travel, but **must** only be approved when deemed absolutely necessary for the successful operation of Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
   - Automobile allowance as per [https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances/automobile-allowance-rates.html](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances/automobile-allowance-rates.html)
   - Economy class airline tickets
@@ -142,7 +142,7 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 ### Lodging
 
-- Reimbursement requests are allowed to be made for lodging, but **must** only be approved when deemed absolutely necessary for the successful operation of a Speedcubing Canada Supported Event.
+- Reimbursement requests are allowed to be made for lodging, but **must** only be approved when deemed absolutely necessary for the successful operation of Speedcubing Canada Supported Events.
 - Lodging expenses **must not** be reimbursed beyond the night before the first day or the night after the final day of a Speedcubing Canada Supported Event.
 - Expenses covered by this policy include:
   - Hotels
@@ -152,7 +152,9 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 - To request reimbursement for allowed expense(s), the individual(s) and/or group(s) requesting reimbursement **must** email [reimbursements@speedcubingcanada.org](mailto:reimbursements@speedcubingcanada.org).
   - The email _should_ include “reimbursement” in the subject line.
-  - The email **must** include the name of the Speedcubing Canada Supported Event the allowed expense(s) are associated with.
+  - The email **must** meet one of the two following requirements:
+    - Include the name(s) of the Speedcubing Canada Supported Event(s) the allowed expense(s) are associated with.
+    - If the allowed expense(s) are for equipment that will have ongoing use at Speedcubing Canada Supported Events, but cannot be directly associated with a particular event or event(s), provide written explanation to justify the equipment's benefit to Speedcubing Canada Supported Events in a particular region.
   - The email **must** include receipts attached to the email.
     - An expense **must not** be reimbursed without a receipt (with the exception of automobile allowance).
   - For each receipted expense, the email **must** include which policy (e.g. Venues and associated costs, Equipment Type 1) the expense is covered by.
