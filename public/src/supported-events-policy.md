@@ -21,8 +21,10 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
 - Individual(s) and/or group(s) seeking to run a Speedcubing Canada Supported Event **must** email [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org) to request that their event be recognized as a Speedcubing Canada Supported Event.
   - The email **must** include a detailed, itemized budget for the event, including all expenses and sources of income.
     - The budget _should_ be balanced and _should_ include a margin of at least 10% to account for unexpected costs and circumstances.
+  - The email **must** include the proposed name, date(s) and location of the event.
   - If the email request is made by a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event unless a Director raises an objection within 72 hours of the request.
     - If an objection is raised by a Director, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
+      - If an objection is raised and the email request is made by a Director, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of recognition is required.
   - If the email request is made by individual(s) and/or group(s) who are not a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
 
 ## Organizational and Financial Requirements
@@ -39,8 +41,9 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
 
 - Any and all Speedcubing Canada Supported Events **must** follow all legal requirements of the jurisdiction in which in the event takes place.
 - Any and all Speedcubing Canada Supported Events **must** be covered by a liability insurance policy (either provided by Speedcubing Canada directly or purchased by another party) with not less than $1 million coverage that names Speedcubing Canada as an insured party.
-  - If the insurance policy is not provided by Speedcubing Canada directly, proof of insurance **must** be emailed to [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org).
+  - If the insurance policy is not provided by Speedcubing Canada directly, proof of insurance **must** be emailed to [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org) not less than fourteen (14) days before the first day of the event.
   - Speedcubing Canada’s Board of Directors reserves the right to request greater than $1 million coverage for a Speedcubing Canada Supported Event.
+- As per [Speedcubing Canada’s By-Laws](https://www.speedcubingcanada.org/documents/by-laws.pdf), deeds, transfers, assignments, contracts, obligations and other instruments in writing requiring execution by Speedcubing Canada **must** be signed by a Speedcubing Canada Officer or Director.
 
 ## Other
 

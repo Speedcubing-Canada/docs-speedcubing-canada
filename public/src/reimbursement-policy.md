@@ -61,45 +61,33 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
   - Stopwatches
   - O-rings and other button protectors
 
-#### Type 2: non-timing equipment
+#### Type 2: office supplies, tools and printing
+
+- Expenses covered by this policy include:
+  - Notepads
+  - Cardstock and paper
+  - Stationary (e.g. pens, markers, highlighters, binder clips, clipboards, labels, tape, white-out)
+  - Storage devices (e.g. baskets, bins, boxes, pencil cases, suitcases)
+  - Tools (e.g. screwdrivers, scissors, box cutters)
+  - Professional printing (e.g. banners, table cloths, table runners, print programs, signs, stickers, name badges)
+  - Printing services (e.g. in-store printing solutions)
+  - Non-professional printing (e.g. printers, printer ink, printer toner)
+
+#### Type 3: other
 
 - Expenses covered by this policy include:
   - Cube covers
   - Scrambling station blockers (e.g. tri-folds, pipe and drape)
-  - Blind blockers and harmonica holders
+  - Sight blockers and harmonica holders
   - Laptops, tablets and required accessories (e.g. dongles, power adaptors)
   - Extension cords and power bars
   - Batteries
-
-#### Type 3: printing and paper
-
-- Expenses covered by this policy include:
-  - Cardstock and paper
-  - Professional printing (e.g. banners, table cloths, table runners, print programmes, signs, stickers, name badges)
-  - Printing services (e.g. in-store printing solutions)
-  - Non-professional printing (e.g. printers, printer ink, printer toner)
-
-#### Type 4: office supplies and tools
-
-- Expenses covered by this policy include:
-  - Notepads
-  - Stationary (e.g. pens, markers, highlighters, binder clips, clipboards, labels, tape, white-out)
-  - Storage devices (e.g. baskets, bins, boxes, pencil cases, suitcases)
-  - Tools (e.g. screwdrivers, scissors, box cutters)
-
-#### Type 5: health and safety
-
-- Expenses covered by this policy include:
-  - Personal protective equipment (e.g. medical masks, gloves)
-  - Cleaning/sanitary products (e.g. wipes, hand sanitizer, cling wrap)
-
-#### Type 6: other
-
-- Expenses covered by this policy include:
   - Name badge holders
   - Lanyards
   - Competition apparel
   - Table cloths
+  - Personal protective equipment (e.g. medical masks, gloves)
+  - Cleaning/sanitary products (e.g. wipes, hand sanitizer, cling wrap)
   - Materials for unofficial events (written explanation **must** be provided)
 
 ### Prizes
