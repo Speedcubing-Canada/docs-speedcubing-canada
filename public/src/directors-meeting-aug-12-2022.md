@@ -18,5 +18,7 @@ Votes were collected via Google Forms, which requires the The Board of Directors
 
 ## Policy amendments and creation
 
-- The Board of Directors votes to accept the amendments to the [Speedcubing Canada Reimbursement Policy](https://www.speedcubingcanada.org/documents/reimbursement-policy.pdf) from v1.0 to v1.1 and the creation of the [Speedcubing Canada Supported Events Policy](https://www.speedcubingcanada.org/documents/supported-events-policy.pdf) v1.0 as per this [pull request](https://github.com/Speedcubing-Canada/docs-speedcubing-canada/pull/4).
-- The following votes were recorded: 5 yes, 0 no, 0 neutral.
+- The Board of Directors votes to accept amendments to the [Speedcubing Canada Reimbursement Policy](https://www.speedcubingcanada.org/documents/reimbursement-policy.pdf) from v1.0 to v1.1
+- The Board of Directors votes to accept the creation of the [Speedcubing Canada Supported Events Policy](https://www.speedcubingcanada.org/documents/supported-events-policy.pdf) v1.0
+- Changes to the policies can be found in this [pull request](https://github.com/Speedcubing-Canada/docs-speedcubing-canada/pull/4)
+- The following votes were recorded: 5 yes, 0 no, 0 neutral
