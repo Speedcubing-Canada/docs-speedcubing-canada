@@ -36,6 +36,8 @@ In this by-law and all other by-laws of the Corporation, unless the context othe
 
 In the interpretation of this by-law, words in the singular include the plural and vice-versa, words in one gender include all genders, and "person" includes an individual, body corporate, partnership, trust and unincorporated organization. Other than as specified above, words and expressions defined in the Act have the same meanings when used in these by-laws.
 
+All dollar amounts discussed are in Canadian dollars.
+
 ## 3. Execution of Documents
 
 Deeds, transfers, assignments, contracts, obligations and other instruments in writing requiring execution by the Corporation may be signed by any one (1) of its officers or directors. In addition, the board may from time to time direct the manner in which and the person or persons by whom a particular document or type of document shall be executed. Any person authorized to sign any document may affix the corporate seal (if any) to the document. Any signing officer may certify a copy of any instrument, resolution, by-law or other document of the Corporation to be a true copy thereof.
@@ -218,8 +220,9 @@ Unless otherwise specified by the board (which may, subject to the Act modify, r
 - **President** – If appointed, the president shall be the chief executive officer of the Corporation and shall be responsible for implementing the strategic plans and policies of the Corporation. The president shall, subject to the authority of the board, have general supervision of the affairs of the Corporation.
 - **Secretary** – If appointed, the secretary shall attend and be the secretary of all meetings of the board, members and committees of the board. The secretary shall enter or cause to be entered in the Corporation's minute book, minutes of all proceedings at such meetings; the secretary shall give, or cause to be given, as and when instructed, notices to members, directors, the public accountant and members of committees; the secretary shall be the custodian of all books, papers, records, documents and other instruments belonging to the Corporation.
 - **Treasurer** – If appointed, the treasurer shall have such powers and duties as the board may specify.
-- **Communications Coordinator** - If appointed, a communications coordinator will manage and oversee the social media accounts of and public relations for the Corporation. There may be more than one communications coordinator appointed.
-- **Events Coordinator** - If appointed, an events coordinator may manage events, virtual and in-person, run by the Corporation. There may be more than one events coordinator appointed.
+- **Communications Coordinator** - If appointed, a communications coordinator will manage and oversee the social media accounts of and public relations for the Corporation. A communications coordinator is not permitted to sign documents on behalf of the Corporation. There may be more than one communications coordinator appointed.
+- **Events Coordinator** - If appointed, an events coordinator may manage events, virtual and in-person, run by the Corporation. An events coordinator may sign event-related documents on behalf of the corporation. A single document signed by an events coordinator shall not represent monetary charges or fees greater than $5,000 in total value (such documents shall be deferred to a director or senior events coordinator). There may be more than one events coordinator appointed.
+- **Senior Events Coordinator** - If appointed, a senior events coordinator may manage events, virtual and in-person, run by the Corporation. A senior events coordinator may sign event-related documents on behalf of the corporation. There may be more than one senior events coordinator appointed.
 
 ## 35. Officer Vacancies
 
