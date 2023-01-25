@@ -222,7 +222,7 @@ Unless otherwise specified by the board (which may, subject to the Act modify, r
 - **Treasurer** – If appointed, the treasurer shall have such powers and duties as the board may specify.
 - **Communications Coordinator** - If appointed, a communications coordinator will manage and oversee the social media accounts of and public relations for the Corporation. A communications coordinator is not permitted to sign documents on behalf of the Corporation. There may be more than one communications coordinator appointed.
 - **Events Coordinator** - If appointed, an events coordinator may manage events, virtual and in-person, run by the Corporation. An events coordinator may sign event-related documents on behalf of the Corporation. A single document signed by an events coordinator shall not represent monetary charges or fees greater than $5,000 in total value (such documents shall be deferred to a director or senior events coordinator). There may be more than one events coordinator appointed.
-- **Senior Events Coordinator** - If appointed, a senior events coordinator may manage events, virtual and in-person, run by the Corporation. A senior events coordinator may sign event-related documents on behalf of the corporation. There may be more than one senior events coordinator appointed.
+- **Senior Events Coordinator** - If appointed, a senior events coordinator may manage events, virtual and in-person, run by the Corporation. A senior events coordinator may sign event-related documents on behalf of the Corporation. There may be more than one senior events coordinator appointed.
 
 ## 35. Officer Vacancies
 
