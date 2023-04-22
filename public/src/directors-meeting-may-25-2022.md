@@ -18,7 +18,7 @@ Votes were collected via Google Forms, which requires the The Board of Directors
 
 ## Membership applications
 
-- The Board of Directors accepts Kevin Matthew's application to become a Member of Speedcubing Canada with the following vote totals: 5 yes, 0 no, 0 abstain.
+- The Board of Directors accepts Kevin Matthews' application to become a Member of Speedcubing Canada with the following vote totals: 5 yes, 0 no, 0 abstain.
 
 - The Board of Directors accepts Sarah Strong's application to become a Member of Speedcubing Canada with the following vote totals: 5 yes, 0 no, 0 abstain.
 
@@ -31,7 +31,7 @@ Votes were collected via Google Forms, which requires the The Board of Directors
 
 ## Officer appointments
 
-- The Board of Directors votes to appoint Kevin Matthew as an _Events Coordinator_ of Speedcubing Canada with the following vote totals: 5 yes, 0 no, 0 abstain.
+- The Board of Directors votes to appoint Kevin Matthews as an _Events Coordinator_ of Speedcubing Canada with the following vote totals: 5 yes, 0 no, 0 abstain.
 
 - The Board of Directors votes to appoint Sarah Strong as an _Events Coordinator_ of Speedcubing Canada with the following vote totals: 5 yes, 0 no, 0 abstain.
 
