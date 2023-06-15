@@ -3,8 +3,8 @@
    ol ol { list-style-type: upper-alpha; }
 </style>
 
-Version: 1.3
-Updated: April 19, 2023
+Version: 1.4
+Updated: June 14, 2023
 
 A by-law relating generally to the conduct of the affairs of **Speedcubing Canada** (the "Corporation") **BE IT ENACTED** as a by-law of the Corporation as follows:
 
@@ -44,7 +44,7 @@ Deeds, transfers, assignments, contracts, obligations and other instruments in w
 
 ## 4. Financial Year End
 
-The financial year end of the Corporation shall be **December 6** in each year.
+The financial year end of the Corporation shall be **December 31** in each year.
 
 ## 5. Banking Arrangements
 
