@@ -27,7 +27,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 - Speedcubing Canada **must** only reimburse expenses as is allowed for Canadian not-for-profit corporations.
 - Speedcubing Canada **must** only reimburse Director(s), Officer(s), Member(s) or other individual(s) and/or group(s) who are operating as unpaid volunteers to run Speedcubing Canada Supported Events.
 
-### Venues and associated costs
+### Venues and Associated Costs
 
 - Reimbursement requests are allowed to be made for venues used for Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
@@ -41,7 +41,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
   - Chairs
   - Belt barriers or rope and stanchions
 
-### Operating expenses
+### Operating Expenses
 
 - Reimbursement requests are allowed to be made for operating expenses of Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
@@ -51,7 +51,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 - Reimbursement requests are allowed to be made for equipment used for Speedcubing Canada Supported Events.
 
-#### Type 1: timing equipment
+#### Type 1: Timing Equipment
 
 - Expenses covered by this policy include:
   - StackMat timers
@@ -63,7 +63,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
   - Stopwatches
   - O-rings and other button protectors
 
-#### Type 2: office supplies, tools and printing
+#### Type 2: Office Supplies, Tools and Printing
 
 - Expenses covered by this policy include:
   - Notepads
@@ -75,7 +75,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
   - Printing services (e.g. in-store printing solutions)
   - Non-professional printing (e.g. printers, printer ink, printer toner)
 
-#### Type 3: other
+#### Type 3: Other
 
 - Expenses covered by this policy include:
   - Cube covers
@@ -104,7 +104,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
   - Gift cards
   - Cash
 
-### Food and beverage
+### Food and Beverage
 
 - Reimbursement requests are allowed to be made for food and beverage served _free of charge_ to attendees or a sub-group of attendees at Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
@@ -129,6 +129,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
     - Taxis
     - Ride-Share (e.g. Uber, Lyft)
   - Paid parking at public or private lots
+  - Rental cars
 
 ### Lodging
 
@@ -137,6 +138,10 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 - Expenses covered by this policy include:
   - Hotels
   - Temporary rentals (e.g. Airbnb)
+
+### Special Request 
+
+- Reimbursement requests are allowed to be made under this special request policy to cover anything not explicitly mentioned in the above policy. Written explanation for the expense **must** be provided.
 
 ## Submitting Allowed Expenses
 
@@ -147,7 +152,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
     - If the allowed expense(s) are for equipment that will have ongoing use at Speedcubing Canada Supported Events, but cannot be directly associated with specific Speedcubing Canada Supported Events(s), provide written explanation to justify the equipment's benefit to Speedcubing Canada Supported Events in a particular region.
   - The email **must** include receipts attached to the email.
     - An expense **must not** be reimbursed without a receipt (with the exception of automobile allowance).
-  - For each receipted expense, the email **must** include which policy (e.g. Venues and associated costs, Equipment Type 1) the expense is covered by.
+  - For each receipted expense, the email **must** include which policy (e.g. Venues and Associated Costs, Equipment Type 1) the expense is covered by.
 - Reimbursements _should_ be submitted within 60 days of when the out-of-pocket payment was made and **must** be submitted within 365 days of when the out-of-pocket payment was made.
   - Reimbursements submitted between 61 and 365 days of when the out-of-pocket payment was made **must** include a written explanation for the delay.
 
@@ -156,8 +161,10 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 - All reimbursement requests **must** be reviewed by Speedcubing Canada’s Board of Directors.
 - A reimbursement **must** only be accepted if
   - the expense is an allowed expense, and
-  - a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of approving the reimbursement request.
+  - excluding expenses covered under the Special Request policy, a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of approving the reimbursement request.
     - If a Director is the individual making the reimbursement request, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of approving the reimbursement request is required.
+  - if the expenses is covered under the Special Request policy, Speedcubing Canada’s Board of Directors _unanimously_ vote in favour of approving the reimbursement request.
+    - If a Director is the individual making the reimbursement request, they **must not** participate in the vote and the remaining Directors unanimously voting in favour of approving the reimbursement request is required.
 - Reimbursement requests _should_ be processed within 30 days of when the email request is received.
 
 ## Payment
