@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.1
-Updated: August 2, 2022
+Version: 1.2
+Updated: July 21, 2023
 
 # Speedcubing Canada Reimbursement Policy
 
@@ -16,6 +16,8 @@ Whenever feasible, Speedcubing Canada _should_ transact directly with venues, ve
 Individual(s) and/or group(s) _should not_ expect reimbursement from Speedcubing Canada, even if the expense is covered by the policies described in this document. If individual(s) and/or group(s) are planning to request reimbursement for allowed expenses, they _should_ discuss the expense with Speedcubing Canada’s Board of Directors prior to making any out-of-pocket payment(s).
 
 Speedcubing Canada’s Board of Directors reserves the right to modify this document (including the addition or removal of allowed expenses) with a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
+
+This document is extended by the [Speedcubing Canada Major Championship Reimbursement Transfer Policy](https://www.speedcubingcanada.org/documents/major-championship-reimbursement-transfer-policy.pdf).
 
 ## Allowed Expenses
 
