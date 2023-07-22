@@ -141,7 +141,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 ### Special Request 
 
-- Reimbursement requests are allowed to be made under this special request policy to cover anything not explicitly mentioned in the above policy. Written explanation for the expense **must** be provided.
+- Reimbursement requests are allowed to be made under this special request policy to cover anything not explicitly mentioned in the above policies. Written explanation for the expense **must** be provided.
 
 ## Submitting Allowed Expenses
 
