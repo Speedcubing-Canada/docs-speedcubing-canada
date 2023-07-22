@@ -46,6 +46,13 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
   - If the insurance policy is not provided by Speedcubing Canada directly, proof of insurance **must** be emailed to [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org) not less than fourteen (14) days before the first day of the event.
   - Speedcubing Canada’s Board of Directors reserves the right to request greater than $1 million coverage for a Speedcubing Canada Supported Event.
 - As per [Speedcubing Canada’s By-Laws](https://www.speedcubingcanada.org/documents/by-laws.pdf), deeds, transfers, assignments, contracts, obligations and other instruments in writing requiring execution by Speedcubing Canada **must** be signed by a Speedcubing Canada Officer or Director.
+- The Speedcubing Canada Notice of Filming and Photography **must** be posted on the event website and _should_ be posted via physical or digital signage at the event in Canadian English (optionally in Canadian French).
+  - Canadian English:
+    > **Notice of Filming and Photography**
+    > Attendees of Speedcubing Canada competitions consent to their images being used by Speedcubing Canada and its partners in marketing materials, social media and other digital platforms.
+  - Canadian French:
+    > **Avis de droit à l'image**
+    > Les participants aux compétitions de Speedcubing Canada consentent à ce que leurs images soient utilisées par Speedcubing Canada et ses partenaires dans de cadre de la promotion de ses activités notamment sur les réseaux sociaux et autres plateformes numériques.
 
 ## Other
 
