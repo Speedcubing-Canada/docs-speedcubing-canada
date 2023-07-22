@@ -22,6 +22,8 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
   - The email **must** include a detailed, itemized budget for the event, including all expenses and sources of income.
     - The budget _should_ be balanced and _should_ include a margin of at least 10% to account for unexpected costs and circumstances.
   - The email **must** include the proposed name, date(s) and location of the event.
+  - The email _should_ include a venue contract or agreement.
+    - If not provided, Speedcubing Canada’s Board of Directors reserves the right to request a venue contract or agreement.
   - If the email request is made by a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event unless a Director raises an objection within 72 hours of the request.
     - If an objection is raised by a Director, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
       - If an objection is raised and the email request is made by a Director, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of recognition is required.
