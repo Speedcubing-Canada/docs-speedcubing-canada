@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.0
-Updated: August 2, 2022
+Version: 1.1
+Updated: July 22, 2023
 
 # Speedcubing Canada Supported Events Policy
 

@@ -3,7 +3,7 @@
 </style>
 
 Version: 1.0
-Updated: July 21, 2023
+Updated: July 22, 2023
 
 # Speedcubing Canada Major Championship Reimbursement Transfer Policy
 
