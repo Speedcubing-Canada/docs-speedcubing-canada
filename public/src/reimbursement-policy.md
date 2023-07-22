@@ -94,7 +94,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 ### Prizes
 
-- Reimbursement requests are allowed to be made for prizes awarded to winners to other individuals at Speedcubing Canada Supported Events.
+- Reimbursement requests are allowed to be made for prizes awarded to winners at Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
   - Medals
   - Plaques
@@ -106,7 +106,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 ### Food and Beverage
 
-- Reimbursement requests are allowed to be made for food and beverage served _free of charge_ to attendees or a sub-group of attendees at Speedcubing Canada Supported Events.
+- Reimbursement requests are allowed to be made for food and beverage costs utilized by Speedcubing Canada Directors, Officers, Members, and/or staff during the competition for individual consumption, provided those individuals were _indispensable_ to the running of the competition. 
 - Expenses covered by this policy include:
   - Food (e.g. catering, pizza, sandwiches)
   - Snacks (e.g. fruit, granola bars)
@@ -146,7 +146,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 ## Submitting Allowed Expenses
 
 - To request reimbursement for allowed expense(s), the individual(s) and/or group(s) requesting reimbursement **must** email [reimbursements@speedcubingcanada.org](mailto:reimbursements@speedcubingcanada.org).
-  - The email _should_ include “reimbursement” in the subject line.
+  - The email _should_ include “reimbursement” and the name of the Speedcubing Canada Supported Event in the subject line.
   - The email **must** meet one of the two following requirements:
     - Include the name(s) of the Speedcubing Canada Supported Event(s) the allowed expense(s) are associated with.
     - If the allowed expense(s) are for equipment that will have ongoing use at Speedcubing Canada Supported Events, but cannot be directly associated with specific Speedcubing Canada Supported Events(s), provide written explanation to justify the equipment's benefit to Speedcubing Canada Supported Events in a particular region.
