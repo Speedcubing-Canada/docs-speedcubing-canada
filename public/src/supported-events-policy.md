@@ -37,6 +37,7 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
   - The “I want to enable donations additionally to collecting the registration fees” option **must not** be selected since Speedcubing Canada is not a soliciting corporation.
 - Any and all surplus of funds from Speedcubing Canada Supported Events **must** be returned to Speedcubing Canada’s corporate bank account(s).
 - If a charitable donation is being made as part of the a Speedcubing Canada Supported Event’s budget, the charity **must** be a registered charity in Canada.
+- For a one-day Speedcubing Canada Supported Event (defined as a competition with a planned schedule with a total duration of 6 hours or more; exceptions to this definition may apply, at the discretion of Speedcubing Canada’s Board of Directors), the base registration fee _should_ be no less than $30.00.
 - Any and all reimbursements to individual(s) and/or group(s) for a Speedcubing Canada Supported Event **must** be made in accordance with the latest version of the [Speedcubing Canada Reimbursement Policy](https://www.speedcubingcanada.org/documents/reimbursement-policy.pdf).
 - Speedcubing Canada’s Board of Directors reserves the right to request a full financial report for a Speedcubing Canada Supported Event from the individual(s) and/or group(s) who organized the event.
   - If requested, a full financial report **must** be returned to Speedcubing Canada’s Board of Directors within 30 days of the request.
