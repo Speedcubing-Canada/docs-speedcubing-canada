@@ -149,7 +149,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
   - The email _should_ include “reimbursement” and the name of the Speedcubing Canada Supported Event in the subject line.
   - The email **must** meet one of the two following requirements:
     - Include the name(s) of the Speedcubing Canada Supported Event(s) the allowed expense(s) are associated with.
-    - If the allowed expense(s) are for equipment that will have ongoing use at Speedcubing Canada Supported Events, but cannot be directly associated with specific Speedcubing Canada Supported Events(s), provide written explanation to justify the equipment's benefit to Speedcubing Canada Supported Events in a particular region.
+    - If the allowed expense(s) are for equipment that will have ongoing use at Speedcubing Canada Supported Events, but cannot be directly associated with specific Speedcubing Canada Supported Events(s), provide written explanation to justify the equipment’s benefit to Speedcubing Canada Supported Events in a particular region.
   - The email **must** include receipts attached to the email.
     - An expense **must not** be reimbursed without a receipt (with the exception of automobile allowance).
   - For each receipted expense, the email **must** include which policy (e.g. Venues and Associated Costs, Equipment Type 1) the expense is covered by.

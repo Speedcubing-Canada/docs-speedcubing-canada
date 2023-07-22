@@ -54,7 +54,7 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
     > **Notice of Filming and Photography**
     > Attendees of Speedcubing Canada competitions consent to their images being used by Speedcubing Canada and its partners in marketing materials, social media and other digital platforms.
   - Canadian French:
-    > **Avis de droit à l'image**
+    > **Avis de droit à l’image**
     > Les participants aux compétitions de Speedcubing Canada consentent à ce que leurs images soient utilisées par Speedcubing Canada et ses partenaires dans de cadre de la promotion de ses activités notamment sur les réseaux sociaux et autres plateformes numériques.
 
 ## Other
