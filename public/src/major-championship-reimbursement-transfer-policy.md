@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.0
-Updated: July 22, 2023
+Version: 1.1
+Updated: October 9, 2023
 
 # Speedcubing Canada Major Championship Reimbursement Transfer Policy
 
