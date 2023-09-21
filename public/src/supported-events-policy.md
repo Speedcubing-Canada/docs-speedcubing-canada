@@ -9,6 +9,8 @@ Updated: July 22, 2023
 
 Uses of the words “must”, “must not”, “should”, “should not” and “may” match [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
+Speedcubing Canada Supported Event recognition request form: https://forms.gle/Q5e5BHBkDfhoPq8S6
+
 All dollar amounts discussed are in Canadian dollars.
 
 Speedcubing Canada’s Board of Directors reserves the right to modify this document if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
@@ -18,16 +20,16 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
 ## Recognition Process
 
 - Written notice from Speedcubing Canada’s Board of Directors **must** be obtained to officially recognize a Speedcubing Canada Supported Event.
-- Individual(s) and/or group(s) seeking to run a Speedcubing Canada Supported Event **must** email [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org) to request that their event be recognized as a Speedcubing Canada Supported Event.
-  - The email **must** include a detailed, itemized budget for the event, including all expenses and sources of income.
+- Individual(s) and/or group(s) seeking to run a Speedcubing Canada Supported Event **must** submit the following form to request that their event be recognized as a Speedcubing Canada Supported Event: https://forms.gle/Q5e5BHBkDfhoPq8S6.
+  - The request **must** include a detailed, itemized budget for the event, including all expenses and sources of income.
     - The budget _should_ be balanced and _should_ include a margin of at least 10% to account for unexpected costs and circumstances.
-  - The email **must** include the proposed name, date(s) and location of the event.
-  - The email _should_ include a venue contract or agreement.
+  - The request **must** include the proposed name, date(s) and location of the event.
+  - The request _should_ include a venue contract or agreement.
     - If not provided, Speedcubing Canada’s Board of Directors reserves the right to request a venue contract or agreement.
-  - If the email request is made by a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event unless a Director raises an objection within 72 hours of the request.
+  - If the request is made by a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event unless a Director raises an objection within 72 hours of the request.
     - If an objection is raised by a Director, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
-      - If an objection is raised and the email request is made by a Director, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of recognition is required.
-  - If the email request is made by individual(s) and/or group(s) who are not a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
+      - If an objection is raised and the request is made by a Director, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of recognition is required.
+  - If the request is made by individual(s) and/or group(s) who are not a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
 
 ## Organizational and Financial Requirements
 
@@ -37,7 +39,7 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
   - The “I want to enable donations additionally to collecting the registration fees” option **must not** be selected since Speedcubing Canada is not a soliciting corporation.
 - Any and all surplus of funds from Speedcubing Canada Supported Events **must** be returned to Speedcubing Canada’s corporate bank account(s).
 - If a charitable donation is being made as part of the a Speedcubing Canada Supported Event’s budget, the charity **must** be a registered charity in Canada.
-- For a one-day Speedcubing Canada Supported Event (defined as a competition with a planned schedule with a total duration of 6 hours or more; exceptions to this definition may apply, at the discretion of Speedcubing Canada’s Board of Directors), the base registration fee _should_ be no less than $30.00.
+- For a minimum one-day Speedcubing Canada Supported Event (defined as a competition with a planned schedule with a total duration of 6 hours or more; exceptions to this definition may apply, at the discretion of Speedcubing Canada’s Board of Directors), the base registration fee _should_ be no less than $30.00.
 - Any and all reimbursements to individual(s) and/or group(s) for a Speedcubing Canada Supported Event **must** be made in accordance with the latest version of the [Speedcubing Canada Reimbursement Policy](https://www.speedcubingcanada.org/documents/reimbursement-policy.pdf).
 - Speedcubing Canada’s Board of Directors reserves the right to request a full financial report for a Speedcubing Canada Supported Event from the individual(s) and/or group(s) who organized the event.
   - If requested, a full financial report **must** be returned to Speedcubing Canada’s Board of Directors within 30 days of the request.

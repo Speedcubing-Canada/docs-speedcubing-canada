@@ -9,6 +9,9 @@ Updated: July 22, 2023
 
 Uses of the words “must”, “must not”, “should”, “should not” and “may” match [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
+General reimbursement request form: https://forms.gle/wJri15T8p83dM1MVA
+Automobile allowance reimbursement request form: https://forms.gle/fVqSRbQ6VfAYWJ5k6
+
 All dollar amounts discussed are in Canadian dollars.
 
 Whenever feasible, Speedcubing Canada _should_ transact directly with venues, vendors, merchants and service providers to avoid the need to reimburse individual(s) and/or group(s). When reimbursement is necessary, this policy describes allowed expenses and the process for the submission, approval and payment of approved reimbursements.
@@ -145,16 +148,15 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 ## Submitting Allowed Expenses
 
-- To request reimbursement for allowed expense(s), the individual(s) and/or group(s) requesting reimbursement **must** email [reimbursements@speedcubingcanada.org](mailto:reimbursements@speedcubingcanada.org).
-  - The email _should_ include “reimbursement” and the name of the Speedcubing Canada Supported Event in the subject line.
-  - The email **must** meet one of the two following requirements:
+- To request reimbursement for allowed expense(s), the individual(s) and/or group(s) requesting reimbursement **must** submit a request via this form: https://forms.gle/wJri15T8p83dM1MVA. If the reimbursement request is for automobile allowance, the individual(s) and/or group(s) requesting reimbursement **must** submit a request via this form: https://forms.gle/fVqSRbQ6VfAYWJ5k6.
+  - The reimbursement request **must** meet one of the two following requirements:
     - Include the name(s) of the Speedcubing Canada Supported Event(s) the allowed expense(s) are associated with.
     - If the allowed expense(s) are for equipment that will have ongoing use at Speedcubing Canada Supported Events, but cannot be directly associated with specific Speedcubing Canada Supported Events(s), provide written explanation to justify the equipment’s benefit to Speedcubing Canada Supported Events in a particular region.
-  - The email **must** include receipts attached to the email.
+  - The reimbursement request **must** include receipts attached via the form.
     - An expense **must not** be reimbursed without a receipt (with the exception of automobile allowance).
-  - For each receipted expense, the email **must** include which policy (e.g. Venues and Associated Costs, Equipment Type 1) the expense is covered by.
+  - For each receipted expense, the reimbursement request **must** include which policy (e.g. Venues and Associated Costs, Equipment Type 1) the expense is covered by.
 - Reimbursements _should_ be submitted within 60 days of when the out-of-pocket payment was made and **must** be submitted within 365 days of when the out-of-pocket payment was made.
-  - Reimbursements submitted between 61 and 365 days of when the out-of-pocket payment was made **must** include a written explanation for the delay.
+  - For reimbursements submitted between 61 and 365 days of when the out-of-pocket payment was made, the the individual(s) and/or group(s) requesting reimbursement **must** provide a written explanation for the delay.
 
 ## Approval
 
@@ -163,9 +165,9 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
   - the expense is an allowed expense, and
   - excluding expenses covered under the Special Request policy, a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of approving the reimbursement request.
     - If a Director is the individual making the reimbursement request, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of approving the reimbursement request is required.
-  - if the expenses is covered under the Special Request policy, Speedcubing Canada’s Board of Directors _unanimously_ vote in favour of approving the reimbursement request.
+  - If the expenses is covered under the Special Request policy, Speedcubing Canada’s Board of Directors _unanimously_ vote in favour of approving the reimbursement request.
     - If a Director is the individual making the reimbursement request, they **must not** participate in the vote and the remaining Directors unanimously voting in favour of approving the reimbursement request is required.
-- Reimbursement requests _should_ be processed within 30 days of when the email request is received.
+- Reimbursement requests _should_ be processed within 30 days of when the form is submitted.
 
 ## Payment
 
