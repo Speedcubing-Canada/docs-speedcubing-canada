@@ -37,7 +37,7 @@ All requirements set out in the Speedcubing Canada Reimbursement Policy **must**
 
 - To request reimbursement for allowed expense(s), the individual requesting reimbursement **must** submit a request via this form: https://forms.gle/MLtugSU2pSFXQ1CMA.
 - The reimbursement request **must** include the name of the past championship or future championship that the budgeted reimbursement amount is being transferred to as the associated Speedcubing Canada Supported Event.
-- The reimbursement request **must** include the name of current championship that the budgeted reimbursement amount is being transferred from.
+- The reimbursement request **must** include the name of the current championship that the budgeted reimbursement amount is being transferred from.
 
 ## Examples
 
