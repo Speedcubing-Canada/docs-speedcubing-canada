@@ -2,12 +2,14 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.0
-Updated: July 22, 2023
+Version: 1.1
+Updated: October 9, 2023
 
 # Speedcubing Canada Major Championship Reimbursement Transfer Policy
 
 Uses of the words “must”, “must not”, “should”, “should not” and “may” match [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
+Major championship reimbursement transfer request form: https://forms.gle/MLtugSU2pSFXQ1CMA
 
 All dollar amounts discussed are in Canadian dollars.
 
@@ -33,9 +35,9 @@ All requirements set out in the Speedcubing Canada Reimbursement Policy **must**
 
 ## Submitting Allowed Expenses
 
-- The reimbursement request **must** indicate that it is covered by the Major Championship Reimbursement Transfer.
-- The reimbursement request **must** list the past championship or future championship that the budgeted reimbursement amount is being transferred to as the associated Speedcubing Canada Supported Event
-- The reimbursement request _should_ mention the current championship that the budgeted reimbursement amount is being transferred from.
+- To request reimbursement for allowed expense(s), the individual requesting reimbursement **must** submit a request via this form: https://forms.gle/MLtugSU2pSFXQ1CMA.
+- The reimbursement request **must** include the name of the past championship or future championship that the budgeted reimbursement amount is being transferred to as the associated Speedcubing Canada Supported Event.
+- The reimbursement request **must** include the name of the current championship that the budgeted reimbursement amount is being transferred from.
 
 ## Examples
 
