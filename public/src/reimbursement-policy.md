@@ -156,7 +156,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
     - An expense **must not** be reimbursed without a receipt (with the exception of automobile allowance).
   - For each receipted expense, the reimbursement request **must** include which policy (e.g. Venues and Associated Costs, Equipment Type 1) the expense is covered by.
 - Reimbursements _should_ be submitted within 60 days of when the out-of-pocket payment was made and **must** be submitted within 365 days of when the out-of-pocket payment was made.
-  - For reimbursements submitted between 61 and 365 days of when the out-of-pocket payment was made, the the individual(s) and/or group(s) requesting reimbursement **must** provide a written explanation for the delay.
+  - For reimbursements submitted between 61 and 365 days of when the out-of-pocket payment was made, the individual(s) and/or group(s) requesting reimbursement **must** provide a written explanation for the delay.
 
 ## Approval
 
