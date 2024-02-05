@@ -9,8 +9,8 @@ Updated: October 9, 2023
 
 Uses of the words “must”, “must not”, “should”, “should not” and “may” match [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
-General reimbursement request form: https://forms.gle/wJri15T8p83dM1MVA
-Automobile allowance reimbursement request form: https://forms.gle/fVqSRbQ6VfAYWJ5k6
+General reimbursement request form: [https://forms.gle/wJri15T8p83dM1MVA](https://forms.gle/wJri15T8p83dM1MVA)
+Automobile allowance reimbursement request form: [https://forms.gle/fVqSRbQ6VfAYWJ5k6](https://forms.gle/fVqSRbQ6VfAYWJ5k6)
 
 All dollar amounts discussed are in Canadian dollars.
 
@@ -148,7 +148,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 ## Submitting Allowed Expenses
 
-- To request reimbursement for allowed expense(s), the individual(s) and/or group(s) requesting reimbursement **must** submit a request via this form: https://forms.gle/wJri15T8p83dM1MVA. If the reimbursement request is for automobile allowance, the individual(s) and/or group(s) requesting reimbursement **must** submit a request via this form: https://forms.gle/fVqSRbQ6VfAYWJ5k6.
+- To request reimbursement for allowed expense(s), the individual(s) and/or group(s) requesting reimbursement **must** submit a request via this form: [https://forms.gle/wJri15T8p83dM1MVA](https://forms.gle/wJri15T8p83dM1MVA). If the reimbursement request is for automobile allowance, the individual(s) and/or group(s) requesting reimbursement **must** submit a request via this form: [https://forms.gle/fVqSRbQ6VfAYWJ5k6](https://forms.gle/fVqSRbQ6VfAYWJ5k6).
   - The reimbursement request **must** meet one of the two following requirements:
     - Include the name(s) of the Speedcubing Canada Supported Event(s) the allowed expense(s) are associated with.
     - If the allowed expense(s) are for equipment that will have ongoing use at Speedcubing Canada Supported Events, but cannot be directly associated with specific Speedcubing Canada Supported Events(s), provide written explanation to justify the equipment’s benefit to Speedcubing Canada Supported Events in a particular region.

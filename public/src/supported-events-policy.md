@@ -9,7 +9,7 @@ Updated: October 9, 2023
 
 Uses of the words “must”, “must not”, “should”, “should not” and “may” match [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
-Speedcubing Canada Supported Event recognition request form: https://forms.gle/Q5e5BHBkDfhoPq8S6
+Speedcubing Canada Supported Event recognition request form: [https://forms.gle/Q5e5BHBkDfhoPq8S6](https://forms.gle/Q5e5BHBkDfhoPq8S6)
 
 All dollar amounts discussed are in Canadian dollars.
 
@@ -20,7 +20,7 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
 ## Recognition Process
 
 - Written notice from Speedcubing Canada’s Board of Directors **must** be obtained to officially recognize a Speedcubing Canada Supported Event.
-- Individual(s) and/or group(s) seeking to run a Speedcubing Canada Supported Event **must** submit the following form to request that their event be recognized as a Speedcubing Canada Supported Event: https://forms.gle/Q5e5BHBkDfhoPq8S6.
+- Individual(s) and/or group(s) seeking to run a Speedcubing Canada Supported Event **must** submit the following form to request that their event be recognized as a Speedcubing Canada Supported Event: [https://forms.gle/Q5e5BHBkDfhoPq8S6](https://forms.gle/Q5e5BHBkDfhoPq8S6).
   - The request **must** include a detailed, itemized budget for the event, including all expenses and sources of income.
     - The budget _should_ be balanced and _should_ include a margin of at least 10% to account for unexpected costs and circumstances.
   - The request **must** include the proposed name, date(s) and location of the event.
