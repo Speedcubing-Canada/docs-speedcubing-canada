@@ -31,7 +31,7 @@ Canadian Championships _should_ should be conducted every 2 years, unless otherw
 ## Canadian Championship Application Submission Process
 
 - A Canadian Championship Application will consist of a PDF document that contains information to support the Canadian Championship Selection Committee with the Canadian Championship Selection Process.
-- Every application **must** have a point person if an application is being submitted on behalf of a larger organization team.
+Applications that are being submitted on behalf of a larger organization team **must** have a point person.
   - All communications regarding the application _should_ be directed to the point person of an application.
   - The point person for a Canadian Championship Application **must** be a member of Speedcubing Canada.
 - Every application **must** include the following noted in this list:
@@ -57,8 +57,8 @@ Canadian Championships _should_ should be conducted every 2 years, unless otherw
 
 - Once the Application Submission Process is complete, the Canadian Championship Selection Process will begin.
 - The review process **must** consist of communications between the Canadian Championship Selection Committee and a final vote to select the host of the Canadian Championship.
-  - The review period _may_ include meetings between the Canadian Championship Selection Committee.
-  - Meetings _may_ be proposed with each organization team before voting has begun.
+The review period _may_ include virtual meetings among the Canadian Championship Selection Committee.
+Virtual meetings between the Canadian Championship Selection Committee and each organization team _may_ be proposed before voting has begun.
     - Modifications _may_ be made to an application if it is required by the Canadian Championship Selection Committee.
 - The voting process **must** be conducted using a ranked ballot system.
   - Each member of the Canadian Championship Selection Committee will receive a ballot listing all submitted applications.
