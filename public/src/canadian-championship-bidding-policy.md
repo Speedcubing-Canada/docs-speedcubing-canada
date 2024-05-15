@@ -19,7 +19,7 @@ Canadian Championships _should_ should be conducted every 2 years, unless otherw
 - The Canadian Championship Selection Committee **must** include all current members of Speedcubing Canada's Board of Directors.
 - The selected leader _may_ add additional members as a part of the Canadian Championship Selection Committee.
   - Selected members **must** be Speedcubing Canada members at the time of selection.
-  - Selected members _should_ have previous experience in organizing large competitions.
+  - Selected members _should_ have previous experience in organizing regional or national competitions.
 
 ## Canadian Championship Timeline Development
 
@@ -57,17 +57,9 @@ Applications that are being submitted on behalf of a larger organization team **
 
 - Once the Application Submission Process is complete, the Canadian Championship Selection Process will begin.
 - The review process **must** consist of communications between the Canadian Championship Selection Committee and a final vote to select the host of the Canadian Championship.
-The review period _may_ include virtual meetings among the Canadian Championship Selection Committee.
-Virtual meetings between the Canadian Championship Selection Committee and each organization team _may_ be proposed before voting has begun.
+  - The review process _may_ include virtual meetings among the Canadian Championship Selection Committee.
+  - Virtual meetings between the Canadian Championship Selection Committee and each organization team _may_ be proposed before voting has begun.
     - Modifications _may_ be made to an application if it is required by the Canadian Championship Selection Committee.
-- The voting process **must** be conducted using a ranked ballot system.
-  - Each member of the Canadian Championship Selection Committee will receive a ballot listing all submitted applications.
-  - Committee members *must* rank the bids in order of preference, assigning a unique rank to each bid.
-    - 1 will be considered the highest preference, with each descending number representing a lower preference.
-  - Once all committee members have submitted their ballots, the votes will be tabulated. One bid *must* receive a majority of votes to win.
-    - In each round of tabulation, the bid with the fewest first-choice rankings will be eliminated, and its votes will be redistributed to the next-ranked bid on each ballot.
-    - This process continues until one bid receives a majority of votes, making it the preferred choice of the committee.
-    - In the case of a time, the bid with the highest number of second-choice rankings will be declared the winner. If a tie persists, the bid with the highest number of third-choice rankings will be declared the winner. This process will continue until the tie is broken.
 - Once an application has been selected, the Point Person for the application will be notified. 
   - The Canadian Championship Selection Committee will continue to help with the organization of the event at this point.
 - All applications _should_ be publically posted for viewing after the selection process is complete.
