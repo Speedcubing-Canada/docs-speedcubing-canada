@@ -11,7 +11,7 @@ Uses of the words “must”, “must not”, “should”, “should not” and
 
 Speedcubing Canada’s Board of Directors reserves the right to modify this document if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of the modification.
 
-Canadian Championships _should_ should be conducted every 2 years, unless otherwise noted by Speedcubing Canada's Board of Directors.
+Canadian Championships _should_ be conducted every 2 years, unless otherwise noted by Speedcubing Canada's Board of Directors.
 
 ## Canadian Championship Selection Committee Creation
 
