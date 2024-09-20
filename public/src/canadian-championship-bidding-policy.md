@@ -61,12 +61,18 @@ Applications **must** have a "Point Person".
   - The review process _may_ include virtual meetings among the Canadian Championship Selection Committee.
   - Virtual meetings between the Canadian Championship Selection Committee and each organization team _may_ be proposed before voting has begun.
     - Modifications _may_ be made to an application if it is required by the Canadian Championship Selection Committee.
-  - The voting process **must** be conducted using a ranked ballot system.
-    - If a member of the Canadian Championship Selection Committe is part of the Core Team for an Application, they are **not** eligible to vote.
+  - The voting process **must** be conducted using "Ranked Choice Voting".
     - Each member of the Canadian Championship Selection Committee will receive a ballot listing all submitted applications.
     - Committee members *must* rank the applications in order of preference, assigning a unique rank to each application.
-    - Once all committee members have submitted their ballots, the votes will be tabulated. One application *must* receive a majority of votes to win.
-      - If a vote leads to a tie, the Leader of the Canadian Championship Selection Committee will select the host of the Canadian Championship.
+    - Ballots _should_ be cast using "Helios" or a similar online voting software.
+    - Once all committee members have submitted their ballots, the votes will be tabulated.
+    - The following process **must** be followed:
+      1. The votes for the first choice on each ballot will be tallied.
+      2. If no applications receive more than 50% of the vote, the lowest ranking application will be eliminated.
+      3. Any ballots that had the lowest ranking application as their top choice will have the votes of their next choice tallied.
+      4. Steps 2-3 will be repeated until one application receives a majority of votes to win.
+         - If the final vote leads to a tie, the Leader of the Canadian Championship Selection Committee will select the host of the Canadian Championship.
+    - If a member of the Canadian Championship Selection Committe is part of the Core Team for an Application, they are **not** eligible to vote.
 - Once an application has been selected, the Point Person for the application will be notified. 
   - The Canadian Championship Selection Committee will continue to help with the organization of the event at this point.
 - All applications _should_ be publically posted for viewing after the selection process is complete.
