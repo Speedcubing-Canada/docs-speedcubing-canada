@@ -65,7 +65,6 @@ Applications **must** have a "Point Person".
     - If a member of the Canadian Championship Selection Committe is part of the Core Team for an Application, they are **not** eligible to vote.
     - Each member of the Canadian Championship Selection Committee will receive a ballot listing all submitted applications.
     - Committee members *must* rank the applications in order of preference, assigning a unique rank to each application.
-      - 1 will be considered the highest preference, with each descending number representing a lower preference.
     - Once all committee members have submitted their ballots, the votes will be tabulated. One application *must* receive a majority of votes to win.
       - If a vote leads to a tie, the Leader of the Canadian Championship Selection Committee will select the host of the Canadian Championship.
 - Once an application has been selected, the Point Person for the application will be notified. 
