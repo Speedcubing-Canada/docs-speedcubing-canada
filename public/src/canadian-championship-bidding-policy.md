@@ -15,7 +15,8 @@ Canadian Championships _should_ be conducted every 2 years, unless otherwise not
 
 ## Canadian Championship Selection Committee Creation
 
-- For every Canadian Championship, one member of Speedcubing Canada's Board of Directors _should_ be selected to lead a separate Canadian Championship Selection Committee.
+- For every Canadian Championship, one member of Speedcubing Canada's Board of Directors **must** be selected to lead a separate Canadian Championship Selection Committee.
+  - This individual is considered the "Leader of the Canadian Championship Selection Committee"
 - The Canadian Championship Selection Committee **must** include all current members of Speedcubing Canada's Board of Directors.
 - The selected leader _may_ add additional members as a part of the Canadian Championship Selection Committee.
   - Selected members **must** be Speedcubing Canada members at the time of selection.
@@ -31,9 +32,10 @@ Canadian Championships _should_ be conducted every 2 years, unless otherwise not
 ## Canadian Championship Application Submission Process
 
 - A Canadian Championship Application will consist of a PDF document that contains information to support the Canadian Championship Selection Committee with the Canadian Championship Selection Process.
-Applications that are being submitted on behalf of a larger organization team **must** have a point person.
+Applications that are being submitted on behalf of a larger organization team **must** have a "Point Person".
   - All communications regarding the application _should_ be directed to the point person of an application.
   - The point person for a Canadian Championship Application **must** be a member of Speedcubing Canada.
+    - If a Canadian Championship Application has a Team consisting of one member, they **must** be the Point Person for the Application.
 - Every application **must** include the following noted in this list:
   - Location and Time
     - Possible dates
@@ -60,6 +62,13 @@ Applications that are being submitted on behalf of a larger organization team **
   - The review process _may_ include virtual meetings among the Canadian Championship Selection Committee.
   - Virtual meetings between the Canadian Championship Selection Committee and each organization team _may_ be proposed before voting has begun.
     - Modifications _may_ be made to an application if it is required by the Canadian Championship Selection Committee.
+  - The voting process **must** be conducted using a ranked ballot system.
+    - If a member of the Canadian Championship Selection Committe is part of the Core Team for an Application, they are **not** eligible to vote.
+    - Each member of the Canadian Championship Selection Committee will receive a ballot listing all submitted applications.
+    - Committee members *must* rank the applications in order of preference, assigning a unique rank to each application.
+      - 1 will be considered the highest preference, with each descending number representing a lower preference.
+    - Once all committee members have submitted their ballots, the votes will be tabulated. One application *must* receive a majority of votes to win.
+      - If a vote leads to a tie, the Leader of the Canadian Championship Selection Committee will select the host of the Canadian Championship.
 - Once an application has been selected, the Point Person for the application will be notified. 
   - The Canadian Championship Selection Committee will continue to help with the organization of the event at this point.
 - All applications _should_ be publically posted for viewing after the selection process is complete.
