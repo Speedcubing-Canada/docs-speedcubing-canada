@@ -16,7 +16,7 @@ Canadian Championships _should_ be conducted every 2 years, unless otherwise not
 ## Canadian Championship Selection Committee Creation
 
 - For every Canadian Championship, one member of Speedcubing Canada's Board of Directors **must** be selected to lead a separate Canadian Championship Selection Committee.
-  - This individual is considered the "Leader of the Canadian Championship Selection Committee"
+  - This individual is considered the "Leader of the Canadian Championship Selection Committee".
 - The Canadian Championship Selection Committee **must** include all current members of Speedcubing Canada's Board of Directors.
 - The selected leader _may_ add additional members as a part of the Canadian Championship Selection Committee.
   - Selected members **must** be Speedcubing Canada members at the time of selection.
