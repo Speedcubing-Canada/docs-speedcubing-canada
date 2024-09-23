@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.0
-Updated: May 11, 2024
+Version: 1.1
+Updated: September 23rd, 2024
 
 # Canadian Championship Bidding Policy
 
