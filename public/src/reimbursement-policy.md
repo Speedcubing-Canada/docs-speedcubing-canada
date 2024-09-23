@@ -123,7 +123,7 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 - Reimbursement requests are allowed to be made for travel, but **must** only be approved when deemed absolutely necessary for the successful operation of Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
-  - Automobile allowance as per [https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances/automobile-allowance-rates.html](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances/automobile-allowance-rates.html)
+  - Automobile allowance as per [https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances.html](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances.html)
   - Economy class airline tickets
   - Public transportation:
     - Trains
