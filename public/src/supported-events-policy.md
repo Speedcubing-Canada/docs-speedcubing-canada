@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.2
-Updated: October 9, 2023
+Version: 1.2.1
+Updated: May 11, 2024
 
 # Speedcubing Canada Supported Events Policy
 
@@ -35,7 +35,9 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
 
 - If a Speedcubing Canada Supported Event is a WCA competition, it **must** follow all WCA Regulations and Policies.
 - If a Speedcubing Canada Supported Event is a WCA competition, Speedcubing Canada **must** be listed as an Organizer on the WCA website.
-- If a Speedcubing Canada Supported Event is a WCA competition, registration **must** be run via the WCA website, registration fees **must** be collected via the WCA website and registration fees **must** be directed to Speedcubing Canada’s Stripe account.
+- If a Speedcubing Canada Supported Event is a WCA competition, registration **must** be run via the WCA website and registration fees **must** be directed to Speedcubing Canada’s Stripe account.
+  - Registration fees **must** be collected via the WCA website, unless the fee is collected as part of "on the spot registration".
+    - If a competition opts for "on the spot registration", registration fees **must** be collected using a Stripe payment link provided by the Speedcubing Canada’s Board of Directors. Cash **must not** be used as a form of payment for "on the spot registration".
   - The “I want to enable donations additionally to collecting the registration fees” option **must not** be selected since Speedcubing Canada is not a soliciting corporation.
 - Any and all surplus of funds from Speedcubing Canada Supported Events **must** be returned to Speedcubing Canada’s corporate bank account(s).
 - If a charitable donation is being made as part of the a Speedcubing Canada Supported Event’s budget, the charity **must** be a registered charity in Canada.
