@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.0
-Updated: May 11, 2024
+Version: 1.1
+Updated: September 23rd, 2024
 
 # Canadian Championship Bidding Policy
 
@@ -72,7 +72,7 @@ Applications **must** have a "Point Person".
       3. Any ballots that had the lowest ranking application as their top choice will have the votes of their next choice tallied.
       4. Steps 2-3 will be repeated until one application receives a majority of votes to win.
          - If the final vote leads to a tie, the Leader of the Canadian Championship Selection Committee will select the host of the Canadian Championship.
-    - If a member of the Canadian Championship Selection Committe is part of the Core Team for an Application, they are **not** eligible to vote.
+    - If a member of the Canadian Championship Selection Committee is part of the Core Team for an Application, they are **not** eligible to vote.
 - Once an application has been selected, the Point Person for the application will be notified. 
   - The Canadian Championship Selection Committee will continue to help with the organization of the event at this point.
 - All applications _should_ be publically posted for viewing after the selection process is complete.
