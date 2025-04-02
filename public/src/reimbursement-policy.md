@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.3
-Updated: October 9, 2023
+Version: 1.4
+Updated: April 2, 2025
 
 # Speedcubing Canada Reimbursement Policy
 
@@ -123,7 +123,8 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 
 - Reimbursement requests are allowed to be made for travel, but **must** only be approved when deemed absolutely necessary for the successful operation of Speedcubing Canada Supported Events.
 - Expenses covered by this policy include:
-  - Automobile allowance as per [https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances/automobile-allowance-rates.html](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/automobile/automobile-motor-vehicle-allowances/automobile-allowance-rates.html)
+  - Automobile allowance at a rate of $0.25 per kilometer
+  - Gasoline
   - Economy class airline tickets
   - Public transportation:
     - Trains
