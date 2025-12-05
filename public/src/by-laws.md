@@ -3,8 +3,8 @@
    ol ol { list-style-type: upper-alpha; }
 </style>
 
-Version: 1.4
-Updated: June 14, 2023
+Version: 1.5
+Updated: December 3, 2025
 
 A by-law relating generally to the conduct of the affairs of **Speedcubing Canada** (the "Corporation") **BE IT ENACTED** as a by-law of the Corporation as follows:
 
@@ -272,3 +272,14 @@ All costs of the mediators appointed in accordance with this section shall be bo
 Subject to the articles, the board of directors may, by resolution, make, amend or repeal any by-laws that regulate the activities or affairs of the Corporation. Any such by-law, amendment or repeal shall be effective from the date of the resolution of directors until the next meeting of members where it may be confirmed, rejected or amended by the members by ordinary resolution. If the by-law, amendment or repeal is confirmed or confirmed as amended by the members it remains effective in the form in which it was confirmed. The by-law, amendment or repeal ceases to have effect if it is not submitted to the members at the next meeting of members or if it is rejected by the members at the meeting.
 
 This section does not apply to a by-law that requires a special resolution of the members according to subsection 197(1) (fundamental change) of the Act because such by-law amendments or repeals are only effective when confirmed by members.
+
+## 42. Policies
+
+The following policies supplement the by-laws:
+
+- Speedcubing Canada Supported Events Policy
+- Speedcubing Canada Reimbursement Policy
+- Speedcubing Canada Logo Usage Policy
+- Speedcubing Canada Membership Policy
+
+If the by-laws and a policy conflict, the board of directors may apply interpretation of either the by-laws or the policy by special resolution of the directors.
