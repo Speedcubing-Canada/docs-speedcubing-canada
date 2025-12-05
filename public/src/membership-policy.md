@@ -2,7 +2,7 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.0.0
+Version: 1.0
 Updated: December 3, 2025
 
 # Speedcubing Canada Membership Policy
