@@ -2,10 +2,12 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.1
-Updated: October 9, 2023
+Version: 1.2
+Updated: December 3, 2025
 
-# Speedcubing Canada Major Championship Reimbursement Transfer Policy
+# ARCHIVE - Speedcubing Canada Major Championship Reimbursement Transfer Policy
+
+**This policy is no longer in effect as of December 3, 2025. This document serves only as an archive and will no longer be published on speedcubingcanada.org.**
 
 Uses of the words “must”, “must not”, “should”, “should not” and “may” match [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
