@@ -40,7 +40,7 @@ jobs:
       - name: Install system dependencies for Chromium
         run: |
           sudo apt-get update
-          sudo apt-get install -y libgbm1 libnss3 libxss1 libasound2
+          sudo apt-get install -y libgbm1 libnss3 libxss1
 
       - name: Gather changed markdown files
         id: changed
