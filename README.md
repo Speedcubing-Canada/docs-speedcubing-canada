@@ -36,4 +36,4 @@ If no markdown files changed, the workflow will skip PDF commits.
 
 - The workflow runs on pushes that modify `public/src/**/*.md`.
 - You can also run it manually from the `Actions` tab using `workflow_dispatch`.
-- PDF generation is powered by `markdown-pdf`.
+- PDF generation is powered by `md-to-pdf` with HTML5 Boilerplate styling.

@@ -1,9 +1,13 @@
 name: Generate PDFs
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   push:
     paths:
       - "public/src/**/*.md"
+      - "styles/**/*.css"
       - ".github/workflows/generate-pdfs.yml"
       - "index.js"
       - "package.json"
@@ -20,14 +24,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
