@@ -37,6 +37,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install system dependencies for Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm1 libnss3 libxss1 libasound2
+
       - name: Gather changed markdown files
         id: changed
         run: |
@@ -76,8 +81,16 @@ jobs:
             fi
             base_name="$(basename "$file" .md)"
             echo "Generating PDF for $file"
-            node index.js public "$base_name"
+            node index.js public "$base_name" || { echo "Failed to generate PDF for $file"; exit 1; }
+            pdf_file="./public/pdf/${base_name}.pdf"
+            if [ -f "$pdf_file" ]; then
+              echo "✓ Successfully created: $pdf_file ($(stat --format=%s "$pdf_file" 2>/dev/null || echo '?') bytes)"
+            else
+              echo "✗ Failed to create: $pdf_file"
+              exit 1
+            fi
           done < changed_files.txt
+          echo "All PDFs generated successfully"
 
       - name: Commit updated PDFs
         if: steps.changed.outputs.has_changes == 'true'
