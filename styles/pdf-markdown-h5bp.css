@@ -1,0 +1,135 @@
+/* Markdown typography layered on top of HTML5 Boilerplate. */
+
+body {
+  font-family: "DejaVu Sans", "Liberation Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.47;
+  color: #222;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.62em 0 0.36em;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.52em;
+}
+
+h2 {
+  font-size: 1.46em;
+}
+
+h3 {
+  font-size: 1.22em;
+}
+
+p {
+  margin: 0.35em 0 1.25em;
+}
+
+ul,
+ol {
+  margin: 0.38em 0 0.72em;
+  padding-left: 2.6em;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin: 0.2em 0 0.45em;
+  padding-left: 3em;
+}
+
+li > ul,
+li > ol {
+  margin-left: 0.6em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+blockquote {
+  margin: 0.58em 0 0.78em;
+  padding: 0.2em 0.9em;
+  border-left: 4px solid #d9d9d9;
+  color: #333;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+pre,
+code {
+  font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+code {
+  padding: 0.1em 0.3em;
+  background: #f2f2f2;
+  border-radius: 3px;
+}
+
+pre {
+  margin: 0 0 0.6em;
+  padding: 0.6em;
+  background: #f2f2f2;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+pre code {
+  padding: 0;
+  background: transparent;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 0.6em;
+}
+
+table th,
+table td {
+  border: 1px solid #dcdcdc;
+  padding: 0.35em 0.55em;
+  text-align: left;
+  vertical-align: top;
+}
+
+table thead th {
+  background: #f0f0f0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 1.2em 0;
+}
+
+.page-break {
+  page-break-after: always;
+}

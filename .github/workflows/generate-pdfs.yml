@@ -1,0 +1,111 @@
+name: Generate PDFs
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+on:
+  push:
+    paths:
+      - "public/src/**/*.md"
+      - "styles/**/*.css"
+      - ".github/workflows/generate-pdfs.yml"
+      - "index.js"
+      - "package.json"
+      - "package-lock.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdfs:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install system dependencies for Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm1 libnss3 libxss1
+
+      - name: Gather changed markdown files
+        id: changed
+        run: |
+          set -e
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            find public/src -type f -name "*.md" | sort > changed_files.txt
+          else
+            BEFORE_SHA="${{ github.event.before }}"
+            AFTER_SHA="${{ github.sha }}"
+
+            if [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
+              git ls-tree -r --name-only "$AFTER_SHA" -- public/src | grep -E '\.md$' | sort > changed_files.txt || true
+            else
+              git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" -- public/src | grep -E '\.md$' | sort > changed_files.txt || true
+            fi
+          fi
+
+          echo "Changed markdown files:"
+          cat changed_files.txt || true
+
+          if [ -s changed_files.txt ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate PDFs for changed files
+        if: steps.changed.outputs.has_changes == 'true'
+        run: |
+          set -e
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            if [ ! -f "$file" ]; then
+              echo "Skipping missing file: $file"
+              continue
+            fi
+            base_name="$(basename "$file" .md)"
+            echo "Generating PDF for $file"
+            node index.js public "$base_name" || { echo "Failed to generate PDF for $file"; exit 1; }
+            pdf_file="./public/pdf/${base_name}.pdf"
+            if [ -f "$pdf_file" ]; then
+              echo "✓ Successfully created: $pdf_file ($(stat --format=%s "$pdf_file" 2>/dev/null || echo '?') bytes)"
+            else
+              echo "✗ Failed to create: $pdf_file"
+              exit 1
+            fi
+          done < changed_files.txt
+          echo "All PDFs generated successfully"
+
+      - name: Commit updated PDFs
+        if: steps.changed.outputs.has_changes == 'true'
+        run: |
+          set -e
+
+          git add public/pdf
+
+          if git diff --cached --quiet -- public/pdf; then
+            echo "No PDF changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "chore: regenerate PDFs from updated markdown"
+          git push
