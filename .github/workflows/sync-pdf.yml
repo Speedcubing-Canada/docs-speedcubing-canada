@@ -222,19 +222,24 @@ jobs:
             const name = humanName(id);
             console.log(`✗ ${id} missing — inserting versioned entry`);
 
-            // Extract base id: "reimbursement-policy-v1.4" -> "reimbursement-policy"
             const baseId = id.replace(/-v\d+\.\d+(?:\.\d+)?$/, '');
 
             if (category === 'byLaws') {
-              // By-laws versioned entries go at the bottom
               insertAtBottomOfSection('byLaws', formatSingleLine(id, name));
             } else {
-              // For policies: insert after the last versioned entry for this base policy
-              // Look for the last occurrence of baseId in content
-              const lastVersionPattern = `"${baseId}`;
-              const inserted = insertAfterPattern(lastVersionPattern, formatSingleLine(id, name));
-              if (!inserted) {
-                // Fallback: insert at bottom of section
+              // Find the last versioned sibling: look for baseId-vX.Y pattern specifically
+              const versionedSiblingRegex = new RegExp(`"${baseId}-v\\d+\\.\\d+`, 'g');
+              let lastMatch = null;
+              let match;
+              while ((match = versionedSiblingRegex.exec(content)) !== null) {
+                lastMatch = match;
+              }
+
+              if (lastMatch) {
+                // Insert after the last versioned sibling entry
+                insertAfterPattern(lastMatch[0], formatSingleLine(id, name));
+              } else {
+                // No versioned siblings yet — insert at bottom of section
                 insertAtBottomOfSection(category, formatSingleLine(id, name));
               }
             }

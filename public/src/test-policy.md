@@ -1,4 +1,4 @@
-# Test Document v2.7
+# Test Document v2.8
 
 This is a test markdown file to verify the PDF generation system works correctly.
 
