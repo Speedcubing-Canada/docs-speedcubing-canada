@@ -146,6 +146,13 @@ jobs:
             done < versioned_pdfs.txt
           fi
 
+      - name: Debug website repo structure
+        if: steps.changed.outputs.has_changes == 'true'
+        working-directory: website
+        run: |
+          find . -name "documents.ts" 2>/dev/null
+          find . -type d -name "documents" 2>/dev/null
+          
       - name: Open PR on website repo
         if: steps.changed.outputs.has_changes == 'true'
         working-directory: website
