@@ -103,6 +103,6 @@ jobs:
             exit 0
           fi
           git config user.name "SpeedcubingCanada-bot"
-          git config user.email "<software@speedcubingcanada.org>"
+          git config user.email "software@speedcubingcanada.org"
           git commit -m "chore: regenerate PDFs from updated markdown"
           git push

@@ -146,13 +146,6 @@ jobs:
             done < versioned_pdfs.txt
           fi
 
-      - name: Debug website repo structure
-        if: steps.changed.outputs.has_changes == 'true'
-        working-directory: website
-        run: |
-          find . -name "documents.ts" 2>/dev/null
-          find . -type d -name "documents" 2>/dev/null
-          
       - name: Open PR on website repo
         if: steps.changed.outputs.has_changes == 'true'
         working-directory: website
@@ -160,22 +153,19 @@ jobs:
           GH_TOKEN: ${{ secrets.BOT_PAT }}
         run: |
           git config user.name "SpeedcubingCanada-bot"
-          git config user.email "<software@speedcubingcanada.org>"
+          git config user.email "software@speedcubingcanada.org"
 
           BRANCH="automated/sync-pdfs-${{ github.run_id }}"
           git checkout -b "$BRANCH"
           git add front/public/documents front/src/pages/documents.ts
 
-          # Only proceed if there's actually something to commit
           if git diff --staged --quiet; then
             echo "Nothing changed in website repo after copy, skipping PR."
             exit 0
           fi
 
-          # Build a readable list of changed files for the PR body
-          PDF_LIST=$(while IFS= read -r pdf; do
-            [ -z "$pdf" ] && echo "- $(basename "$pdf")"
-          done < ../changed_pdfs.txt)
+          # Build file list before entering subshell
+          PDF_LIST=$(cat ../changed_pdfs.txt | xargs -I{} basename {} | sed 's/^/- /' || true)
 
           git commit -m "chore: sync PDFs from docs repo"
           git push origin "$BRANCH"
@@ -188,7 +178,7 @@ jobs:
           This PR was opened automatically after PDFs were regenerated in [docs-speedcubing-canada](https://github.com/Speedcubing-Canada/docs-speedcubing-canada).
 
           **Changed files:**
-          $(cat ../changed_pdfs.txt | xargs -I{} basename {} | sed 's/^/- /')
+          ${PDF_LIST}
 
-          > If a new document was added, it has been inserted into \`documents.ts\` under \`minutes\` by default — please move it to the correct category before merging." \
+          > If a new document was added, it has been inserted into \`documents.ts\` automatically — please verify the category and order before merging." \
             --base main
