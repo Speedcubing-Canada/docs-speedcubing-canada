@@ -1,5 +1,8 @@
 name: Sync PDFs to website
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  
 on:
   workflow_run:
     workflows: ["Generate PDFs"]
