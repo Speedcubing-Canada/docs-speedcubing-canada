@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   build-pdfs:
-    if: github.actor != 'github-actions[bot]'
+    if: github.actor != 'SpeedcubingCanada-bot'
     runs-on: ubuntu-latest
 
     steps:
