@@ -58,11 +58,10 @@ jobs:
 
           is_versioned_doc() {
             local id="$1"
-            # Only policies and bylaws get versioned copies — minutes and corporate never do
             if echo "$id" | grep -qE '^(directors-meeting|annual-members-meeting|first-members-meeting|first-directors-meeting|certificate-)'; then
-              return 1  # not versioned
+              return 1
             fi
-            return 0  # versioned
+            return 0
           }
 
           while IFS= read -r pdf; do
@@ -78,18 +77,24 @@ jobs:
             fi
 
             md_file=$(find public/src -name "${filename}.md" | head -1)
+            echo "  → MD file found: '$md_file'"          # debug
+            echo "  → MD file exists: $([ -f "$md_file" ] && echo yes || echo no)"  # debug
+
             if [ -f "$md_file" ]; then
+              echo "  → First 20 lines of MD:"            # debug
+              head -20 "$md_file"                         # debug
               version=$(head -20 "$md_file" | grep -iE '^version:\s*[0-9]+\.[0-9]+' | head -1 | grep -oE '[0-9]+\.[0-9]+(\.[0-9]+)?' || true)
+              echo "  → Extracted version: '$version'"    # debug
               if [ -n "$version" ]; then
                 versioned_name="${filename}-v${version}"
-                echo "  → Found version $version, also copying as $versioned_name.pdf"
+                echo "  → Copying as $versioned_name.pdf"
                 cp "$pdf" "$dest/$versioned_name.pdf"
                 echo "$versioned_name" >> versioned_pdfs.txt
               else
-                echo "  → No version found in $md_file, skipping versioned copy"
+                echo "  → No version found, skipping versioned copy"
               fi
             else
-              echo "  → No matching MD file found for $filename, skipping versioned copy"
+              echo "  → No matching MD file found for $filename"
             fi
           done < changed_pdfs.txt
 
