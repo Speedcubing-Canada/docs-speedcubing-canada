@@ -1,0 +1,184 @@
+name: Sync PDFs to website
+
+on:
+  workflow_run:
+    workflows: ["Generate PDFs"]
+    types: [completed]
+    branches: [main]
+
+jobs:
+  sync-pdfs:
+    # Only run if the PDF generation workflow succeeded
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout docs repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 2  # need 2 commits to diff and find what PDFs changed
+
+      - name: Find changed PDFs
+        id: changed
+        run: |
+          # Diff the last two commits, filter to PDFs only
+          git diff --name-only HEAD~1 HEAD -- public/pdf > changed_pdfs.txt
+          echo "Changed PDFs:"
+          cat changed_pdfs.txt
+
+          if [ -s changed_pdfs.txt ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No PDF changes detected, skipping."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout website repo
+        if: steps.changed.outputs.has_changes == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: Speedcubing-Canada/speedcubing-canada-web
+          path: website
+          token: ${{ secrets.BOT_PAT }}
+
+      - name: Copy PDFs and create versioned copies for policies
+        if: steps.changed.outputs.has_changes == 'true'
+        run: |
+          dest="website/front/public/documents"
+          mkdir -p "$dest"
+
+          is_versioned_doc() {
+            local id="$1"
+            # Only policies and bylaws get versioned copies — minutes and corporate never do
+            if echo "$id" | grep -qE '^(directors-meeting|annual-members-meeting|first-members-meeting|first-directors-meeting|certificate-)'; then
+              return 1  # not versioned
+            fi
+            return 0  # versioned
+          }
+
+          while IFS= read -r pdf; do
+            [ -z "$pdf" ] && continue
+            filename="$(basename "$pdf" .pdf)"
+
+            echo "Copying $filename.pdf"
+            cp "$pdf" "$dest/$filename.pdf"
+
+            if ! is_versioned_doc "$filename"; then
+              echo "  → Minutes/corporate doc, skipping version lookup"
+              continue
+            fi
+
+            md_file=$(find public/src -name "${filename}.md" | head -1)
+            if [ -f "$md_file" ]; then
+              version=$(head -20 "$md_file" | grep -iE '^version:\s*[0-9]+\.[0-9]+' | head -1 | grep -oE '[0-9]+\.[0-9]+(\.[0-9]+)?' || true)
+              if [ -n "$version" ]; then
+                versioned_name="${filename}-v${version}"
+                echo "  → Found version $version, also copying as $versioned_name.pdf"
+                cp "$pdf" "$dest/$versioned_name.pdf"
+                echo "$versioned_name" >> versioned_pdfs.txt
+              else
+                echo "  → No version found in $md_file, skipping versioned copy"
+              fi
+            else
+              echo "  → No matching MD file found for $filename, skipping versioned copy"
+            fi
+          done < changed_pdfs.txt
+
+      - name: Add missing entries to documents.ts
+        if: steps.changed.outputs.has_changes == 'true'
+        run: |
+          DOCS_FILE="website/front/src/pages/documents.ts"
+
+          categorize() {
+            local id="$1"
+            if echo "$id" | grep -qE '^(directors-meeting|annual-members-meeting|first-members-meeting|first-directors-meeting)'; then
+              echo "minutes"
+            elif echo "$id" | grep -qE '^by-laws'; then
+              echo "byLaws"
+            elif echo "$id" | grep -qE '^certificate-'; then
+              echo "corporate"
+            else
+              echo "policies"
+            fi
+          }
+
+          add_entry() {
+            local filename="$1"
+            local DOCS_FILE="$2"
+            local category
+            category=$(categorize "$filename")
+            local human_name
+            human_name=$(echo "$filename" | sed 's/-/ /g; s/\b\(.\)/\u\1/g')
+
+            echo "✗ $filename missing — adding to '$category'"
+            sed -i "/  $category: \[/,/  \],/{
+              /  \],/{
+                i\\    { name: \"$human_name\", id: \"$filename\" },
+              }
+            }" "$DOCS_FILE"
+            echo "  Added: { name: \"$human_name\", id: \"$filename\" }"
+          }
+
+          # Process changed PDFs (the main/unversioned files)
+          while IFS= read -r pdf; do
+            [ -z "$pdf" ] && continue
+            filename="$(basename "$pdf" .pdf)"
+            if grep -q "\"$filename\"" "$DOCS_FILE"; then
+              echo "✓ $filename already in documents.ts (updated in place)"
+            else
+              add_entry "$filename" "$DOCS_FILE"
+            fi
+          done < changed_pdfs.txt
+
+          # Process versioned copies — these are always new entries
+          if [ -f versioned_pdfs.txt ]; then
+            while IFS= read -r versioned_name; do
+              [ -z "$versioned_name" ] && continue
+              if grep -q "\"$versioned_name\"" "$DOCS_FILE"; then
+                echo "✓ $versioned_name already in documents.ts, skipping"
+              else
+                add_entry "$versioned_name" "$DOCS_FILE"
+              fi
+            done < versioned_pdfs.txt
+          fi
+
+      - name: Open PR on website repo
+        if: steps.changed.outputs.has_changes == 'true'
+        working-directory: website
+        env:
+          GH_TOKEN: ${{ secrets.BOT_PAT }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          BRANCH="automated/sync-pdfs-${{ github.run_id }}"
+          git checkout -b "$BRANCH"
+          git add front/public/documents front/src/pages/documents.ts
+
+          # Only proceed if there's actually something to commit
+          if git diff --staged --quiet; then
+            echo "Nothing changed in website repo after copy, skipping PR."
+            exit 0
+          fi
+
+          # Build a readable list of changed files for the PR body
+          PDF_LIST=$(while IFS= read -r pdf; do
+            [ -z "$pdf" ] && echo "- $(basename "$pdf")"
+          done < ../changed_pdfs.txt)
+
+          git commit -m "chore: sync PDFs from docs repo"
+          git push origin "$BRANCH"
+
+          gh pr create \
+            --repo Speedcubing-Canada/speedcubing-canada-web \
+            --title "chore: sync PDFs from docs repo" \
+            --body "## Automated PDF sync
+
+          This PR was opened automatically after PDFs were regenerated in [docs-speedcubing-canada](https://github.com/Speedcubing-Canada/docs-speedcubing-canada).
+
+          **Changed files:**
+          $(cat ../changed_pdfs.txt | xargs -I{} basename {} | sed 's/^/- /')
+
+          > If a new document was added, it has been inserted into \`documents.ts\` under \`minutes\` by default — please move it to the correct category before merging." \
+            --base main
