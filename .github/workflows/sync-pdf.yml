@@ -2,7 +2,7 @@ name: Sync PDFs to website
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  
+
 on:
   workflow_run:
     workflows: ["Generate PDFs"]
@@ -152,8 +152,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.BOT_PAT }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "SpeedcubingCanada-bot"
+          git config user.email "<software@speedcubingcanada.org>"
 
           BRANCH="automated/sync-pdfs-${{ github.run_id }}"
           git checkout -b "$BRANCH"
