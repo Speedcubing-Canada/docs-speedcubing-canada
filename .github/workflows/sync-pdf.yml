@@ -5,12 +5,11 @@ on:
     workflows: ["Generate PDFs"]
     types: [completed]
     branches: [main]
-  workflow_dispatch:
 
 jobs:
   sync-pdfs:
     # Only run if the PDF generation workflow succeeded
-    # if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
