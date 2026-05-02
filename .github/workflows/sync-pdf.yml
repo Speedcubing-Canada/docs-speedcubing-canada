@@ -4,19 +4,20 @@ on:
   workflow_run:
     workflows: ["Generate PDFs"]
     types: [completed]
-    branches: [automation]
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   sync-pdfs:
     # Only run if the PDF generation workflow succeeded
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout docs repo
         uses: actions/checkout@v4
         with:
-          ref: automation
+          ref: main
           fetch-depth: 2  # need 2 commits to diff and find what PDFs changed
 
       - name: Find changed PDFs
