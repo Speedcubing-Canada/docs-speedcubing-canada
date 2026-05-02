@@ -16,6 +16,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
       - name: Checkout docs repo
         uses: actions/checkout@v4
         with:
@@ -91,60 +96,153 @@ jobs:
       - name: Add missing entries to documents.ts
         if: steps.changed.outputs.has_changes == 'true'
         run: |
-          DOCS_FILE="website/front/src/pages/documents.ts"
+          node - <<'EOF'
+          const fs = require('fs');
+          const path = require('path');
 
-          categorize() {
-            local id="$1"
-            if echo "$id" | grep -qE '^(directors-meeting|annual-members-meeting|first-members-meeting|first-directors-meeting)'; then
-              echo "minutes"
-            elif echo "$id" | grep -qE '^by-laws'; then
-              echo "byLaws"
-            elif echo "$id" | grep -qE '^certificate-'; then
-              echo "corporate"
-            else
-              echo "policies"
-            fi
+          const DOCS_FILE = 'website/front/src/pages/documents.ts';
+          let content = fs.readFileSync(DOCS_FILE, 'utf8');
+
+          const changedPdfs = fs.readFileSync('changed_pdfs.txt', 'utf8')
+            .split('\n').map(l => l.trim()).filter(Boolean)
+            .map(p => path.basename(p, '.pdf'));
+
+          const versionedPdfs = fs.existsSync('versioned_pdfs.txt')
+            ? fs.readFileSync('versioned_pdfs.txt', 'utf8')
+                .split('\n').map(l => l.trim()).filter(Boolean)
+            : [];
+
+          function alreadyExists(id) {
+            return content.includes(`"${id}"`);
           }
 
-          add_entry() {
-            local filename="$1"
-            local DOCS_FILE="$2"
-            local category
-            category=$(categorize "$filename")
-            local human_name
-            human_name=$(echo "$filename" | sed 's/-/ /g; s/\b\(.\)/\u\1/g')
+          function categorize(id) {
+            if (/^(directors-meeting|annual-members-meeting|first-members-meeting|first-directors-meeting)/.test(id))
+              return 'minutes';
+            if (/^by-laws/.test(id)) return 'byLaws';
+            if (/^certificate-/.test(id)) return 'corporate';
+            return 'policies';
+          }
 
-            echo "✗ $filename missing — adding to '$category'"
-            sed -i "/  $category: \[/,/  \],/{
-              /  \],/{
-                i\\    { name: \"$human_name\", id: \"$filename\" },
+          // Human name: "reimbursement-policy-v1.4" -> "Speedcubing Canada Reimbursement Policy (v1.4)"
+          // We try to match the base name to an existing entry to reuse its human name prefix
+          function humanName(id) {
+            // Check if this is a versioned id like "something-vX.Y"
+            const versionMatch = id.match(/^(.+)-v(\d+\.\d+(?:\.\d+)?)$/);
+            if (versionMatch) {
+              const baseId = versionMatch[1];
+              const version = versionMatch[2];
+              // Find the existing human name for the base entry
+              const baseNameMatch = content.match(new RegExp(`name:\\s*"([^"]+)",\\s*\\n\\s*id:\\s*"${baseId}"`));
+              if (baseNameMatch) {
+                return `${baseNameMatch[1]} (v${version})`;
               }
-            }" "$DOCS_FILE"
-            echo "  Added: { name: \"$human_name\", id: \"$filename\" }"
+              // Fallback: capitalize words
+              return id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+            }
+            // Non-versioned: capitalize words
+            return id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
           }
 
-          # Process changed PDFs (the main/unversioned files)
-          while IFS= read -r pdf; do
-            [ -z "$pdf" ] && continue
-            filename="$(basename "$pdf" .pdf)"
-            if grep -q "\"$filename\"" "$DOCS_FILE"; then
-              echo "✓ $filename already in documents.ts (updated in place)"
-            else
-              add_entry "$filename" "$DOCS_FILE"
-            fi
-          done < changed_pdfs.txt
+          function insertAfterPattern(pattern, newEntry) {
+            const idx = content.lastIndexOf(pattern);
+            if (idx === -1) return false;
+            // Find the end of this entry's closing },
+            const afterIdx = content.indexOf('},', idx);
+            if (afterIdx === -1) return false;
+            const insertAt = afterIdx + 2; // after the },
+            content = content.slice(0, insertAt) + '\n' + newEntry + content.slice(insertAt);
+            return true;
+          }
 
-          # Process versioned copies — these are always new entries
-          if [ -f versioned_pdfs.txt ]; then
-            while IFS= read -r versioned_name; do
-              [ -z "$versioned_name" ] && continue
-              if grep -q "\"$versioned_name\"" "$DOCS_FILE"; then
-                echo "✓ $versioned_name already in documents.ts, skipping"
-              else
-                add_entry "$versioned_name" "$DOCS_FILE"
-              fi
-            done < versioned_pdfs.txt
-          fi
+          function insertAtTopOfSection(section, newEntry) {
+            // Find the section array opening bracket
+            const pattern = `  ${section}: [`;
+            const idx = content.indexOf(pattern);
+            if (idx === -1) return false;
+            const bracketIdx = content.indexOf('[', idx);
+            const insertAt = bracketIdx + 1;
+            content = content.slice(0, insertAt) + '\n' + newEntry + content.slice(insertAt);
+            return true;
+          }
+
+          function insertAtBottomOfSection(section, newEntry) {
+            // Find the closing ], of the section
+            const pattern = `  ${section}: [`;
+            const idx = content.indexOf(pattern);
+            if (idx === -1) return false;
+            // Find the closing ], after this section start
+            const closingIdx = content.indexOf('  ],', idx);
+            if (closingIdx === -1) return false;
+            content = content.slice(0, closingIdx) + newEntry + '\n' + content.slice(closingIdx);
+            return true;
+          }
+
+          function formatSingleLine(id, name) {
+            return `    { name: "${name}", id: "${id}" },`;
+          }
+
+          function formatMultiLine(id, name) {
+            return `    {\n      name: "${name}",\n      id: "${id}",\n    },`;
+          }
+
+          // --- Process main (unversioned) changed PDFs ---
+          for (const id of changedPdfs) {
+            if (alreadyExists(id)) {
+              console.log(`✓ ${id} already exists (updated in place)`);
+              continue;
+            }
+
+            const category = categorize(id);
+            const name = humanName(id);
+            console.log(`✗ ${id} missing — adding to '${category}'`);
+
+            if (category === 'minutes') {
+              // New minutes go at the top
+              insertAtTopOfSection('minutes', formatMultiLine(id, name));
+            } else if (category === 'byLaws') {
+              // New by-laws version goes at the bottom (current file already overwritten)
+              insertAtBottomOfSection('byLaws', formatSingleLine(id, name));
+            } else if (category === 'corporate') {
+              insertAtBottomOfSection('corporate', formatMultiLine(id, name));
+            } else {
+              // New policy: insert current entry at TOP of policies
+              insertAtTopOfSection('policies', formatMultiLine(id, name));
+            }
+          }
+
+          // --- Process versioned PDFs ---
+          for (const id of versionedPdfs) {
+            if (alreadyExists(id)) {
+              console.log(`✓ ${id} already exists, skipping`);
+              continue;
+            }
+
+            const category = categorize(id);
+            const name = humanName(id);
+            console.log(`✗ ${id} missing — inserting versioned entry`);
+
+            // Extract base id: "reimbursement-policy-v1.4" -> "reimbursement-policy"
+            const baseId = id.replace(/-v\d+\.\d+(?:\.\d+)?$/, '');
+
+            if (category === 'byLaws') {
+              // By-laws versioned entries go at the bottom
+              insertAtBottomOfSection('byLaws', formatSingleLine(id, name));
+            } else {
+              // For policies: insert after the last versioned entry for this base policy
+              // Look for the last occurrence of baseId in content
+              const lastVersionPattern = `"${baseId}`;
+              const inserted = insertAfterPattern(lastVersionPattern, formatSingleLine(id, name));
+              if (!inserted) {
+                // Fallback: insert at bottom of section
+                insertAtBottomOfSection(category, formatSingleLine(id, name));
+              }
+            }
+          }
+
+          fs.writeFileSync(DOCS_FILE, content);
+          console.log('documents.ts updated successfully');
+          EOF
 
       - name: Open PR on website repo
         if: steps.changed.outputs.has_changes == 'true'
