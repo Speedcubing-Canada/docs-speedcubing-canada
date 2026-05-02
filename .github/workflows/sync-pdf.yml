@@ -96,6 +96,11 @@ jobs:
       - name: Add missing entries to documents.ts
         if: steps.changed.outputs.has_changes == 'true'
         run: |
+          echo "=== versioned_pdfs.txt ===" 
+          cat versioned_pdfs.txt 2>/dev/null || echo "FILE NOT FOUND"
+          echo "=== changed_pdfs.txt ==="
+          cat changed_pdfs.txt 2>/dev/null || echo "FILE NOT FOUND"
+          
           node - <<'EOF'
           const fs = require('fs');
           const path = require('path');
