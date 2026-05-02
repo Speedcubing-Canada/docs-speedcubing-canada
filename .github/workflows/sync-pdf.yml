@@ -4,7 +4,7 @@ on:
   workflow_run:
     workflows: ["Generate PDFs"]
     types: [completed]
-    branches: [main]
+    branches: [automation]
 
 jobs:
   sync-pdfs:
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout docs repo
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: automation
           fetch-depth: 2  # need 2 commits to diff and find what PDFs changed
 
       - name: Find changed PDFs
