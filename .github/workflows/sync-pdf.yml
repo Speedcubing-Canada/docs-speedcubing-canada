@@ -261,8 +261,7 @@ jobs:
         run: |
           # Who triggered the original push to the docs repo
           ACTOR="${{ github.event.workflow_run.triggering_actor.login }}"
-
-          PR_DATE=$(date +'%b %-d %Y')
+          PR_DATE=$(TZ="America/Toronto" date +'%b %-d %Y')
 
           NEW_DOCS=""
           UPDATED_DOCS=""
