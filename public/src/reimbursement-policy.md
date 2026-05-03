@@ -2,7 +2,7 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.5
+Version: 1.4
 Updated: April 2, 2025
 
 # Speedcubing Canada Reimbursement Policy
