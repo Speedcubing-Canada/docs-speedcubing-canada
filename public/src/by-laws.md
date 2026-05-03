@@ -3,7 +3,7 @@
    ol ol { list-style-type: upper-alpha; }
 </style>
 
-Version: 1.6
+Version: 1.5
 Updated: December 3, 2025
 
 A by-law relating generally to the conduct of the affairs of **Speedcubing Canada** (the "Corporation") **BE IT ENACTED** as a by-law of the Corporation as follows:

@@ -77,14 +77,9 @@ jobs:
             fi
 
             md_file=$(find public/src -name "${filename}.md" | head -1)
-            echo "  → MD file found: '$md_file'"          # debug
-            echo "  → MD file exists: $([ -f "$md_file" ] && echo yes || echo no)"  # debug
 
             if [ -f "$md_file" ]; then
-              echo "  → First 20 lines of MD:"            # debug
-              head -20 "$md_file"                         # debug
               version=$(head -20 "$md_file" | grep -iE '^version:\s*[0-9]+\.[0-9]+' | head -1 | grep -oE '[0-9]+\.[0-9]+(\.[0-9]+)?' || true)
-              echo "  → Extracted version: '$version'"    # debug
               if [ -n "$version" ]; then
                 versioned_name="${filename}-v${version}"
                 echo "  → Copying as $versioned_name.pdf"
@@ -134,16 +129,13 @@ jobs:
             return 'policies';
           }
 
-          // Human name: "reimbursement-policy-v1.4" -> "Speedcubing Canada Reimbursement Policy (v1.4)"
-          // We try to match the base name to an existing entry to reuse its human name prefix
+          // Human name: "by-laws-v1.5" -> "By-laws (v1.5)"
           function humanName(id) {
-            // Check if this is a versioned id like "something-vX.Y"
             const versionMatch = id.match(/^(.+)-v(\d+\.\d+(?:\.\d+)?)$/);
             if (versionMatch) {
               const baseId = versionMatch[1];
               const version = versionMatch[2];
-              // Find the existing human name for the base entry
-              const baseNameMatch = content.match(new RegExp(`name:\\s*"([^"]+)",\\s*\\n\\s*id:\\s*"${baseId}"`));
+              const baseNameMatch = content.match(new RegExp(`name:\\s*"([^"]+)",\\s*\\n?\\s*id:\\s*"${baseId}"`));
               if (baseNameMatch) {
                 return `${baseNameMatch[1]} (v${version})`;
               }
@@ -259,6 +251,65 @@ jobs:
           console.log('documents.ts updated successfully');
           EOF
 
+          # Format the file to match repo conventions
+          cd website
+          npx prettier --write front/src/pages/documents.ts
+
+      - name: Build PR metadata
+        if: steps.changed.outputs.has_changes == 'true'
+        id: pr_meta
+        run: |
+          # Who triggered the original push to the docs repo
+          ACTOR="${{ github.event.workflow_run.triggering_actor.login }}"
+
+          # Date of the triggering commit
+          COMMIT_DATE=$(git log -1 --format="%B" | head -1 || echo "")
+          PR_DATE=$(date +'%b %-d %Y')
+
+          # Build categorized lists from changed_pdfs.txt and versioned_pdfs.txt
+          NEW_DOCS=""
+          UPDATED_DOCS=""
+          NEW_VERSIONS=""
+
+          while IFS= read -r pdf; do
+            [ -z "$pdf" ] && continue
+            filename="$(basename "$pdf" .pdf)"
+
+            # Check if this file existed in the website repo before this run
+            if git -C website log --oneline -- "front/public/documents/${filename}.pdf" 2>/dev/null | grep -q .; then
+              UPDATED_DOCS="${UPDATED_DOCS}- \`${filename}\` (updated)\n"
+            else
+              NEW_DOCS="${NEW_DOCS}- \`${filename}\` (new document)\n"
+            fi
+          done < changed_pdfs.txt
+
+          if [ -f versioned_pdfs.txt ]; then
+            while IFS= read -r versioned; do
+              [ -z "$versioned" ] && continue
+              NEW_VERSIONS="${NEW_VERSIONS}- \`${versioned}\`\n"
+            done < versioned_pdfs.txt
+          fi
+
+          # Build the changes section
+          CHANGES=""
+          if [ -n "$NEW_DOCS" ]; then
+            CHANGES="${CHANGES}### New documents\n${NEW_DOCS}\n"
+          fi
+          if [ -n "$UPDATED_DOCS" ]; then
+            CHANGES="${CHANGES}### Updated documents\n${UPDATED_DOCS}\n"
+          fi
+          if [ -n "$NEW_VERSIONS" ]; then
+            CHANGES="${CHANGES}### New versioned copies added\n${NEW_VERSIONS}\n"
+          fi
+
+          # Write to file to avoid env var quoting issues
+          {
+            echo "ACTOR=${ACTOR}"
+            echo "PR_DATE=${PR_DATE}"
+          } >> "$GITHUB_OUTPUT"
+
+          printf "%s" "$CHANGES" > pr_changes.txt
+
       - name: Open PR on website repo
         if: steps.changed.outputs.has_changes == 'true'
         working-directory: website
@@ -273,25 +324,25 @@ jobs:
           git add front/public/documents front/src/pages/documents.ts
 
           if git diff --staged --quiet; then
-            echo "Nothing changed in website repo after copy, skipping PR."
+            echo "Nothing changed in website repo, skipping PR."
             exit 0
           fi
 
-          # Build file list before entering subshell
-          PDF_LIST=$(cat ../changed_pdfs.txt | xargs -I{} basename {} | sed 's/^/- /' || true)
+          CHANGES=$(cat ../pr_changes.txt)
+          ACTOR="${{ steps.pr_meta.outputs.ACTOR }}"
+          PR_DATE="${{ steps.pr_meta.outputs.PR_DATE }}"
 
-          git commit -m "chore: sync PDFs from docs repo"
+          git commit -m "chore: sync documents – ${PR_DATE}"
           git push origin "$BRANCH"
 
           gh pr create \
             --repo Speedcubing-Canada/speedcubing-canada-web \
-            --title "chore: sync PDFs from docs repo" \
-            --body "## Automated PDF sync
+            --title "docs: update documents (${PR_DATE})" \
+            --body "## Document sync
 
-          This PR was opened automatically after PDFs were regenerated in [docs-speedcubing-canada](https://github.com/Speedcubing-Canada/docs-speedcubing-canada).
+          Triggered by @${ACTOR} via [docs-speedcubing-canada](https://github.com/Speedcubing-Canada/docs-speedcubing-canada).
 
-          **Changed files:**
-          ${PDF_LIST}
-
-          > If a new document was added, it has been inserted into \`documents.ts\` automatically — please verify the category and order before merging." \
+          ${CHANGES}
+          ---
+          > New documents have been inserted into \`documents.ts\` automatically. Please verify categories and ordering before merging." \
             --base main
