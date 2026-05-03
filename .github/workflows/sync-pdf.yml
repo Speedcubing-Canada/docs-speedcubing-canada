@@ -262,11 +262,8 @@ jobs:
           # Who triggered the original push to the docs repo
           ACTOR="${{ github.event.workflow_run.triggering_actor.login }}"
 
-          # Date of the triggering commit
-          COMMIT_DATE=$(git log -1 --format="%B" | head -1 || echo "")
           PR_DATE=$(date +'%b %-d %Y')
 
-          # Build categorized lists from changed_pdfs.txt and versioned_pdfs.txt
           NEW_DOCS=""
           UPDATED_DOCS=""
           NEW_VERSIONS=""
@@ -274,8 +271,6 @@ jobs:
           while IFS= read -r pdf; do
             [ -z "$pdf" ] && continue
             filename="$(basename "$pdf" .pdf)"
-
-            # Check if this file existed in the website repo before this run
             if git -C website log --oneline -- "front/public/documents/${filename}.pdf" 2>/dev/null | grep -q .; then
               UPDATED_DOCS="${UPDATED_DOCS}- \`${filename}\` (updated)\n"
             else
@@ -290,25 +285,27 @@ jobs:
             done < versioned_pdfs.txt
           fi
 
-          # Build the changes section
-          CHANGES=""
+          > pr_changes.txt
           if [ -n "$NEW_DOCS" ]; then
-            CHANGES="${CHANGES}### New documents\n${NEW_DOCS}\n"
+            printf "### New documents\n" >> pr_changes.txt
+            printf "%b" "$NEW_DOCS" >> pr_changes.txt
+            printf "\n" >> pr_changes.txt
           fi
           if [ -n "$UPDATED_DOCS" ]; then
-            CHANGES="${CHANGES}### Updated documents\n${UPDATED_DOCS}\n"
+            printf "### Updated documents\n" >> pr_changes.txt
+            printf "%b" "$UPDATED_DOCS" >> pr_changes.txt
+            printf "\n" >> pr_changes.txt
           fi
           if [ -n "$NEW_VERSIONS" ]; then
-            CHANGES="${CHANGES}### New versioned copies added\n${NEW_VERSIONS}\n"
+            printf "### New versioned copies added\n" >> pr_changes.txt
+            printf "%b" "$NEW_VERSIONS" >> pr_changes.txt
+            printf "\n" >> pr_changes.txt
           fi
 
-          # Write to file to avoid env var quoting issues
           {
             echo "ACTOR=${ACTOR}"
             echo "PR_DATE=${PR_DATE}"
           } >> "$GITHUB_OUTPUT"
-
-          printf "%s" "$CHANGES" > pr_changes.txt
 
       - name: Open PR on website repo
         if: steps.changed.outputs.has_changes == 'true'
