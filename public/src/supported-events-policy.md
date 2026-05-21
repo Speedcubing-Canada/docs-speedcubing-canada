@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.3
-Updated: March 22, 2026
+Version: 1.3.1
+Updated: May 20, 2026
 
 # Speedcubing Canada Supported Events Policy
 
@@ -27,9 +27,9 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
   - The request _should_ include a venue contract or agreement.
     - If not provided, Speedcubing Canada’s Board of Directors reserves the right to request a venue contract or agreement.
   - If the request is made by a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event unless a Director raises an objection within 72 hours of the request.
-    - If an objection is raised by a Director, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
-      - If an objection is raised and the request is made by a Director, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of recognition is required.
-  - If the request is made by individual(s) and/or group(s) who are not a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event if a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of recognition.
+    - If an objection is raised by a Director, the event will be recognized as a Speedcubing Canada Supported Event if one of Speedcubing Canada’s Board of Directors votes in favour of recognition.
+      - If an objection is raised and the request is made by a Director, they **must not** participate in the vote and one Director voting in favour of recognition is required.
+  - If the request is made by individual(s) and/or group(s) who are not a Speedcubing Canada Director or Officer, the event will be recognized as a Speedcubing Canada Supported Event if one member of Speedcubing Canada’s Board of Directors votes in favour of recognition.
 
 ## Organizational and Financial Requirements
 
