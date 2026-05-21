@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.2.1
-Updated: May 11, 2024
+Version: 1.3
+Updated: March 22, 2026
 
 # Speedcubing Canada Supported Events Policy
 
@@ -46,9 +46,17 @@ A Speedcubing Canada Supported Event is an event, usually an official World Cube
 - Speedcubing Canada’s Board of Directors reserves the right to request a full financial report for a Speedcubing Canada Supported Event from the individual(s) and/or group(s) who organized the event.
   - If requested, a full financial report **must** be returned to Speedcubing Canada’s Board of Directors within 30 days of the request.
 
+## Organizer Requirements
+
+- Speedcubing Canada reserves the right to reject a Speedcubing Canada Supported Event recognition request based on organizer age, organizer inexperience, or unsatisfactory organization in the past at the discretion of the Speedcubing Canada’s Board of Directors and Officers. The following recommendations apply:
+  - Organizers with no previous experience organizing a Speedcubing Canada Support Event should shadow an experienced organizer.
+  - At least one lead organizer should be at least 18 years of age at the time when the Speedcubing Canada Supported Event recognition request is submitted. A lead organizer is typically the main contact for the event venue.
+- Organizers of Speedcubing Canada Supported Events are expected to be responsible and professional and must follow the instructions and guidance of the Speedcubing Canada Board of Directors, Speedcubing Canada Officers, and WCA Delegates.
+
+
 ## Legal Requirements and Insurance
 
-- Any and all Speedcubing Canada Supported Events **must** follow all legal requirements of the jurisdiction in which in the event takes place.
+- Any and all Speedcubing Canada Supported Events **must** follow all legal requirements of the jurisdiction in which the event takes place.
 - Any and all Speedcubing Canada Supported Events **must** be covered by a liability insurance policy (either provided by Speedcubing Canada directly or purchased by another party) with not less than $1 million coverage that names Speedcubing Canada as an insured party.
   - If the insurance policy is not provided by Speedcubing Canada directly, proof of insurance **must** be emailed to [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org) not less than fourteen (14) days before the first day of the event.
   - Speedcubing Canada’s Board of Directors reserves the right to request greater than $1 million coverage for a Speedcubing Canada Supported Event.
