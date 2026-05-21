@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 1.4
-Updated: April 2, 2025
+Version: 1.5
+Updated: March 9, 2026
 
 # Speedcubing Canada Reimbursement Policy
 
@@ -164,9 +164,9 @@ This document is extended by the [Speedcubing Canada Major Championship Reimburs
 - All reimbursement requests **must** be reviewed by Speedcubing Canada’s Board of Directors.
 - A reimbursement **must** only be accepted if
   - the expense is an allowed expense, and
-  - excluding expenses covered under the Special Request policy, a majority of not less than two-thirds (2/3) of Speedcubing Canada’s Board of Directors vote in favour of approving the reimbursement request.
-    - If a Director is the individual making the reimbursement request, they **must not** participate in the vote and a majority of not less than two-thirds (2/3) of the remaining Directors voting in favour of approving the reimbursement request is required.
-  - If the expenses is covered under the Special Request policy, Speedcubing Canada’s Board of Directors _unanimously_ vote in favour of approving the reimbursement request.
+  - excluding expenses covered under the Special Request policy or for amounts of $1,000 CAD or greater, one of Speedcubing Canada’s Board of Directors votes in favour of approving the reimbursement request.
+    - If a Director is the individual making the reimbursement request, they **must not** participate in the vote and a majority of not less than one-third (1/3) of the remaining Directors voting in favour of approving the reimbursement request is required.
+  - If the expense is covered under the Special Request policy or is for an amount of $1,000 CAD or greater, Speedcubing Canada’s Board of Directors _unanimously_ vote in favour of approving the reimbursement request.
     - If a Director is the individual making the reimbursement request, they **must not** participate in the vote and the remaining Directors unanimously voting in favour of approving the reimbursement request is required.
 - Reimbursement requests _should_ be processed within 30 days of when the form is submitted.
 
