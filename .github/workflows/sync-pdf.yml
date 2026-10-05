@@ -31,15 +31,26 @@ jobs:
         id: changed
         run: |
           # Diff the last two commits, filter to PDFs only
-          git diff --name-only HEAD~1 HEAD -- public/pdf > changed_pdfs.txt
+          git diff --name-only HEAD~1 HEAD -- public/pdf > all_pdfs.txt
+          # scorecards-* documents belong to the scorecards app, not the website
+          grep -v '^public/pdf/scorecards-' all_pdfs.txt > changed_pdfs.txt || true
+          grep '^public/pdf/scorecards-' all_pdfs.txt > scorecards_pdfs.txt || true
           echo "Changed PDFs:"
           cat changed_pdfs.txt
+          echo "Changed scorecards PDFs:"
+          cat scorecards_pdfs.txt
 
           if [ -s changed_pdfs.txt ]; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           else
-            echo "No PDF changes detected, skipping."
+            echo "No website PDF changes detected, skipping."
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [ -s scorecards_pdfs.txt ]; then
+            echo "has_scorecards_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_scorecards_changes=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Checkout website repo
@@ -341,4 +352,49 @@ jobs:
           ${CHANGES}
           ---
           > New documents have been inserted into \`documents.ts\` automatically. Please verify categories and ordering before merging." \
+            --base main
+
+      - name: Checkout scorecards repo
+        if: steps.changed.outputs.has_scorecards_changes == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: Speedcubing-Canada/scorecards-v2
+          path: scorecards
+          token: ${{ secrets.BOT_PAT }}
+
+      - name: Open PR on scorecards repo
+        if: steps.changed.outputs.has_scorecards_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.BOT_PAT }}
+        run: |
+          # Served by the app at /<name>.pdf
+          xargs -a scorecards_pdfs.txt cp -t scorecards/public/
+
+          cd scorecards
+          git config user.name "SpeedcubingCanada-bot"
+          git config user.email "software@speedcubingcanada.org"
+
+          BRANCH="automated/sync-pdfs-${{ github.run_id }}"
+          git checkout -b "$BRANCH"
+          git add public
+
+          if git diff --staged --quiet; then
+            echo "Nothing changed in scorecards repo, skipping PR."
+            exit 0
+          fi
+
+          PR_DATE=$(TZ="America/Toronto" date +'%b %-d %Y')
+          CHANGES=$(sed 's|^public/pdf/|- `|; s|$|`|' ../scorecards_pdfs.txt)
+
+          git commit -m "chore: sync documents – ${PR_DATE}"
+          git push origin "$BRANCH"
+
+          gh pr create \
+            --repo Speedcubing-Canada/scorecards-v2 \
+            --title "docs: update documents (${PR_DATE})" \
+            --body "## Document sync
+
+          Triggered by @${{ github.event.workflow_run.triggering_actor.login }} via [docs-speedcubing-canada](https://github.com/Speedcubing-Canada/docs-speedcubing-canada).
+
+          ${CHANGES}" \
             --base main

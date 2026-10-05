@@ -62,3 +62,4 @@ After `Generate PDFs` succeeds, `Sync PDFs to website` will automatically run:
 - Requires `BOT_PAT` secret (GitHub Personal Access Token with repo and workflow permissions).
 - Opens pull requests on the website repository; new documents are added to `minutes` by default and should be recategorized before merging.
 - If no PDFs changed, the sync workflow is skipped automatically.
+- Documents named `scorecards-*` are skipped on the website and instead synced to the `public/` folder of [scorecards-v2](https://github.com/Speedcubing-Canada/scorecards-v2) through a pull request there. `BOT_PAT` needs write access to that repository.
