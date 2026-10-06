@@ -55,7 +55,7 @@ jobs:
             AFTER_SHA="${{ github.sha }}"
 
             if [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
-              git ls-tree -r --name-only "$AFTER_SHA" -- public/src | grep -E '\.md$' | sort > changed_files.txt || true
+              git diff --name-only "origin/${{ github.event.repository.default_branch }}...$AFTER_SHA" -- public/src | grep -E '\.md$' | sort > changed_files.txt || true
             else
               git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" -- public/src | grep -E '\.md$' | sort > changed_files.txt || true
             fi
