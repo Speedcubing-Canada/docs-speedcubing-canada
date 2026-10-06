@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
-          token: ${{ secrets.BOT_PAT }}
+          token: ${{ secrets.BOT_PAT || github.token }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
