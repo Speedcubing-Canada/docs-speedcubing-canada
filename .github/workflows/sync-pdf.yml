@@ -1,8 +1,5 @@
 name: Sync PDFs to website
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 on:
   workflow_run:
     workflows: ["Generate PDFs"]
@@ -17,12 +14,12 @@ jobs:
 
     steps:
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 24
 
       - name: Checkout docs repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: main
           fetch-depth: 2  # need 2 commits to diff and find what PDFs changed
@@ -44,7 +41,7 @@ jobs:
 
       - name: Checkout website repo
         if: steps.changed.outputs.has_changes == 'true'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: Speedcubing-Canada/speedcubing-canada-web
           path: website

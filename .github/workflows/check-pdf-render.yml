@@ -1,0 +1,49 @@
+name: Check PDF render
+
+on:
+  pull_request:
+    paths:
+      - "package.json"
+      - "package-lock.json"
+      - "index.js"
+      - "styles/**/*.css"
+      - ".github/workflows/check-pdf-render.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install system dependencies for Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm1 libnss3 libxss1
+
+      - name: Render by-laws
+        run: |
+          # Delete the committed PDF so the size check can't pass on a stale file.
+          rm -f public/pdf/by-laws.pdf
+          node index.js public by-laws
+          test -s public/pdf/by-laws.pdf
+
+      - name: Upload rendered PDF
+        uses: actions/upload-artifact@v7
+        with:
+          name: by-laws-pdf
+          path: public/pdf/by-laws.pdf
