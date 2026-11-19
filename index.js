@@ -1,4 +1,5 @@
 const { mdToPdf } = require("md-to-pdf");
+const fs = require("fs");
 const path = require("path");
 
 const type = process.argv[2];
@@ -12,11 +13,22 @@ if (!type || !file) {
   process.exit(1);
 }
 
+function documentTitle() {
+  const [, heading, date] =
+    fs.readFileSync(fromPath, "utf8").match(/^# (.+)\s*(?:Date: (.+))?/m) || [];
+  const title = heading
+    ? heading.trim() + (date ? ` (${date.trim()})` : "")
+    : file[0].toUpperCase() + file.slice(1);
+  return title.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+}
+
 async function generatePdf() {
   const result = await mdToPdf(
     { path: fromPath },
     {
       dest: toPath,
+      // Chromium titles the PDF with the temp server URL when <title> is empty
+      document_title: documentTitle(),
       marked_options: {
         gfm: true,
         breaks: true,
