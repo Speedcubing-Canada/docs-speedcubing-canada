@@ -16,9 +16,8 @@ if (!type || !file) {
 function documentTitle() {
   const [, heading, date] =
     fs.readFileSync(fromPath, "utf8").match(/^# (.+)\s*(?:Date: (.+))?/m) || [];
-  const title = heading
-    ? heading.trim() + (date ? ` (${date.trim()})` : "")
-    : file[0].toUpperCase() + file.slice(1);
+  if (!heading) return file[0].toUpperCase() + file.slice(1);
+  const title = date ? `${heading.trim()} (${date.trim()})` : heading.trim();
   return title.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 }
 
