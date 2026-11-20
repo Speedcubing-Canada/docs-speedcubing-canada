@@ -1,4 +1,5 @@
 const { mdToPdf } = require("md-to-pdf");
+const fs = require("fs");
 const path = require("path");
 
 const type = process.argv[2];
@@ -12,11 +13,21 @@ if (!type || !file) {
   process.exit(1);
 }
 
+function documentTitle() {
+  const [, heading, date] =
+    fs.readFileSync(fromPath, "utf8").match(/^# (.+)\s*(?:Date: (.+))?/m) || [];
+  if (!heading) return file[0].toUpperCase() + file.slice(1);
+  const title = date ? `${heading.trim()} (${date.trim()})` : heading.trim();
+  return title.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+}
+
 async function generatePdf() {
   const result = await mdToPdf(
     { path: fromPath },
     {
       dest: toPath,
+      // Without an explicit title, md-to-pdf titles the PDF with a localhost URL
+      document_title: documentTitle(),
       marked_options: {
         gfm: true,
         breaks: true,

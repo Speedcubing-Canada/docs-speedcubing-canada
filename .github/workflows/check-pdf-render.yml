@@ -30,10 +30,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install system dependencies for Chromium
+      - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libgbm1 libnss3 libxss1
+          sudo apt-get install -y libgbm1 libnss3 libxss1 poppler-utils
 
       - name: Render by-laws
         run: |
@@ -41,6 +41,14 @@ jobs:
           rm -f public/pdf/by-laws.pdf
           node index.js public by-laws
           test -s public/pdf/by-laws.pdf
+
+      - name: Check PDF titles
+        run: |
+          # Minutes cover the heading + date title, by-laws the file-name fallback.
+          rm -f public/pdf/directors-meeting-oct-9-2023.pdf
+          node index.js public directors-meeting-oct-9-2023
+          pdfinfo public/pdf/by-laws.pdf | grep -x "Title: *By-laws"
+          pdfinfo public/pdf/directors-meeting-oct-9-2023.pdf | grep -x "Title: *Directors' Meeting - Speedcubing Canada (October 9, 2023)"
 
       - name: Upload rendered PDF
         uses: actions/upload-artifact@v7
