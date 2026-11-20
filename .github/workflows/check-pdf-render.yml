@@ -44,6 +44,7 @@ jobs:
 
       - name: Check PDF titles
         run: |
+          # Minutes cover the heading + date title, by-laws the file-name fallback.
           rm -f public/pdf/directors-meeting-oct-9-2023.pdf
           node index.js public directors-meeting-oct-9-2023
           pdfinfo public/pdf/by-laws.pdf | grep -x "Title: *By-laws"

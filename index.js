@@ -26,7 +26,7 @@ async function generatePdf() {
     { path: fromPath },
     {
       dest: toPath,
-      // Chromium titles the PDF with the temp server URL when <title> is empty
+      // Without an explicit title, md-to-pdf titles the PDF with a localhost URL
       document_title: documentTitle(),
       marked_options: {
         gfm: true,
