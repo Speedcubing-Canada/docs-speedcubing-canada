@@ -4,6 +4,8 @@ Source repository for Speedcubing Canada governance and policy documents.
 
 Markdown files are stored in `public/src` and generated PDFs are stored in `public/pdf`.
 
+Only `public/` is regenerated and synced to the website. To retire a document, move its markdown and PDF to `archive/src` and `archive/pdf`. It stays on the website until removed there.
+
 ## How this works
 
 When a markdown document is updated in GitHub, two workflows run automatically:

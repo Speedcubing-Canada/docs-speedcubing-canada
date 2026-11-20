@@ -27,8 +27,8 @@ jobs:
       - name: Find changed PDFs
         id: changed
         run: |
-          # Diff the last two commits, filter to PDFs only
-          git diff --name-only HEAD~1 HEAD -- public/pdf > changed_pdfs.txt
+          # Diff the last two commits, filter to PDFs only; a deleted PDF has nothing to copy
+          git diff --name-only --diff-filter=d HEAD~1 HEAD -- public/pdf > changed_pdfs.txt
           echo "Changed PDFs:"
           cat changed_pdfs.txt
 
