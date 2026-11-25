@@ -2,8 +2,8 @@
   a[href]:after { content : "" }
 </style>
 
-Version: 0.1 (Draft)
-Updated: November 3, 2026
+Version: 0.2 (Draft)
+Updated: November 24, 2026
 
 # Speedcubing Canada Championship Eligibility Policy
 
@@ -51,6 +51,9 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
   - Unless SCC’s Board of Directors sets another deadline, the Residency Deadline is 00:00 local time on the first day of the competition.
   - A Residency Deadline other than the default **must** be announced on the competition website.
 - The province or territory on a competitor’s SCC profile at the Residency Deadline is their Declared Residency for that championship.
+  - A competitor who has never set a province or territory on their SCC profile by the Residency Deadline (for example, a newcomer) may still set one before the end of the competition. The first province or territory they set is then their Declared Residency for that championship.
+  - A competitor who first sets a province or territory after the end of the competition has no Declared Residency for that championship.
+  - A competitor who already has a province or territory on their SCC profile at the Residency Deadline keeps it as their Declared Residency for that championship, even if they change it before the end of the competition.
 - A competitor has an Eligible Residency for a championship if their Declared Residency is within the championship’s province (Provincial Championship) or region (Regional Championship), subject to Locked Residency below.
 
 ## Locked Residency
@@ -63,8 +66,8 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 ### Example
 
 - A competitor declared as residing in Ontario attends the Quebec Championship. They are not eligible for the Quebec title, and their residency is not locked.
-- The competitor moves to Alberta and updates their declared residency to Alberta. They attend the Prairies Championship and are eligible for the Prairies title. Prairies becomes their Locked Residency for Regional Championships for the rest of the year.
-- The competitor moves to British Columbia later that year and attends the British Columbia Championship. Their Locked Residency remains Prairies, so they are not eligible for the British Columbia title that year.
+- The competitor moves to Nova Scotia and updates their declared residency to Nova Scotia. They attend the Atlantic Championship and are eligible for the Atlantic title. Atlantic becomes their Locked Residency for Regional Championships for the rest of the year.
+- The competitor moves to Alberta later that year and attends the Canadian Prairie Championship 2026. Their Locked Residency remains Atlantic, so they are not eligible for the Prairies title that year.
 
 ## Determining Champions
 
@@ -76,20 +79,20 @@ Speedcubing Canada’s Board of Directors reserves the right to modify this docu
 
 ## Proof of Residency
 
-### Requirement
+### Request
 
-- Every Regional or Provincial Champion **must** provide proof of residency to keep their title.
-  - Proof of residency **should** be presented at the competition.
-  - If proof of residency is not presented at the competition, it **must** be provided online within 7 days after the last day of the competition.
-  - If proof of residency is not provided in time, the title is revoked and offered to the next eligible competitor, who then has 7 days to provide proof of residency if they have not already done so.
-- Proof of residency **must** show the competitor’s Declared Residency at the Residency Deadline.
+- Competitors do not have to provide proof of residency unless they are asked for it.
+- The organizers of a Regional or Provincial Championship, or SCC’s Board of Directors, may ask a competitor for proof of residency if there is a concern about the competitor’s Declared Residency.
+- The competitor provides the proof directly to whoever asked for it, in person at the competition or by another means agreed with them.
+- A competitor who is asked for proof of residency **must** provide it within 7 days of the request. If they do not, SCC’s Board of Directors may revoke their title and grant it to the next eligible competitor.
+- Proof of residency **must** show that the competitor lived in their Declared Residency at the Residency Deadline.
 - Proof of residency may be:
   - proof of residency for the competitor; or
   - proof of residency for the competitor’s parent or guardian, with a statement from the parent or guardian that the competitor lives with them.
 
 ### Valid Documentation
 
-Pre-approved forms of proof of residency include:
+Accepted forms of proof of residency include:
 
 - Provincial or territorial driver’s licence or photo identification card (must be current)
 - Provincial or territorial health card showing a home address (must be current)
@@ -103,28 +106,20 @@ Pre-approved forms of proof of residency include:
 - Property tax bill or property assessment notice (issued within the last year)
 - Canada Revenue Agency Notice of Assessment (for the most recent tax year)
 
-Competitors, parents or guardians who wish to present another form of proof **should** contact the competition organizers before the competition to request an exception. SCC may accept or refuse other forms of proof at its sole discretion.
+A competitor, parent or guardian who wishes to provide another form of proof **should** ask whoever requested the proof. SCC may accept or refuse other forms of proof at its sole discretion.
 
-### Verification
+### Review
 
-- Proof of residency is verified by an SCC event coordinator at the competition, or by SCC’s Board of Directors.
-- Before the competition, the SCC event coordinator may ask top-ranked competitors to provide proof of residency in advance. This is optional; competitors may always present proof at the competition instead.
-- Proof of residency provided online is sent through a channel provided by SCC.
-- SCC’s Board of Directors may review any verification decision, and may revoke a title for lack of valid proof of residency.
+- Proof of residency is reviewed by whoever asked for it: the organizers of the championship or SCC’s Board of Directors.
+- SCC’s Board of Directors may review any decision made by the organizers.
 
 ### Privacy
 
-- At the competition, the SCC event coordinator records the verification but does not keep a copy of the document.
-- Documents provided online are only accessible to SCC’s Board of Directors and the SCC event coordinator for the competition. They are deleted once the verification is recorded.
-- For each verified competitor, SCC records:
-  - the competitor’s name and WCA ID;
-  - the type of document presented;
-  - the document’s issue or billing date and expiry date, if applicable;
-  - the parent or guardian’s name and their statement that the competitor lives with them, if applicable; and
-  - the name of the person who verified the document.
+- Proof of residency is only shared with the organizers of the championship and SCC’s Board of Directors.
+- Organizers and SCC’s Board of Directors **must not** keep a copy of the document once the review is complete.
 
 ## Misrepresentation and Disputes
 
-- Concerns about a competitor’s declared residency **should** be sent to [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org).
+- Concerns about a competitor’s declared residency **should** be raised with the organizers of the championship, or sent to [board@speedcubingcanada.org](mailto:board@speedcubingcanada.org).
 - SCC’s Board of Directors reserves the right to revoke a resident-specific title from a competitor who misrepresented their residency.
 - SCC’s Board of Directors reserves the right to correct a competitor’s declared residency and to restrict individual(s) who do not comply with this policy, in accordance with [Speedcubing Canada’s By-Laws](https://www.speedcubingcanada.org/documents/by-laws.pdf) and Policies.
